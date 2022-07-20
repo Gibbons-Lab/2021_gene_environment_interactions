@@ -1,0 +1,644 @@
+metabolite,n_taxa,micro_r2,geno_r2,CHEMICAL_ID,BIOCHEMICAL_NAME,SUPER_PATHWAY,SUB_PATHWAY,CAS,KEGG,total,group
+metabolite_2054,1.0,0.0009306200467947834,0.49907563227010765,2054,ethylmalonate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",601-75-2,,0.5000062523169024,genetics
+metabolite_100001054,3.0,0.00016266389491170763,0.44054483874465167,100001054,butyrylcarnitine (C4),Lipid,Fatty Acid Metabolism (also BCAA Metabolism),25576-40-3,C02862,0.4407075026395634,genetics
+metabolite_100020550,16.0,0.01629957334815013,0.38631016448611577,100020550,deoxycholic acid glucuronide,Lipid,Secondary Bile Acid Metabolism,,,0.4026097378342659,hybrid
+metabolite_100021711,1.0,0.0015696014965579375,0.39849090718242963,100021711,decadienedioic acid (C10:2-DC)**,Lipid,"Fatty Acid, Dicarboxylate",,,0.40006050867898757,genetics
+metabolite_100001577,,0.0,0.3997706824187165,100001577,N-acetylcitrulline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,33965-42-3,C15532,0.3997706824187165,genetics
+metabolite_100000054,,0.0,0.3627948141717934,100000054,5-hydroxylysine,Amino Acid,Lysine Metabolism,13204-98-3,C16741,0.3627948141717934,genetics
+metabolite_100002253,52.0,0.359915967352907,0.0,100002253,cinnamoylglycine,Xenobiotics,Food Component/Plant,16534-24-0,,0.359915967352907,microbiome
+metabolite_100004299,2.0,0.0014984038189632676,0.33512657840438387,100004299,N-acetyl-1-methylhistidine*,Amino Acid,Histidine Metabolism,,,0.33662498222334714,genetics
+metabolite_100001266,,0.0,0.3217162218758335,100001266,N-acetylarginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,155-84-0,C02562,0.3217162218758335,genetics
+metabolite_100004523,10.0,0.02938125295020766,0.2896975438896515,100004523,N-delta-acetylornithine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,0.3190787968398592,hybrid
+metabolite_100002488,56.0,0.29444827023637044,0.0,100002488,isoursodeoxycholate,Lipid,Secondary Bile Acid Metabolism,78919-26-3,C17662,0.29444827023637044,microbiome
+metabolite_100001073,,0.0,0.29071385863182364,100001073,androsterone sulfate,Lipid,Steroid,2479-86-9,,0.29071385863182364,genetics
+metabolite_100001253,1.0,0.0003816355935349902,0.28883660160806657,100001253,N-acetylglutamine,Amino Acid,Glutamate Metabolism,2490-97-3,C02716,0.28921823720160156,genetics
+metabolite_100000010,50.0,0.2651401455967256,0.0,100000010,3-phenylpropionate (hydrocinnamate),Amino Acid,Phenylalanine and Tyrosine Metabolism,501-52-0,C05629,0.2651401455967256,microbiome
+metabolite_250,3.0,0.003665207946998539,0.26111944914306906,250,biliverdin,Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,55482-27-4;55482-27-4,C00500,0.2647846570900676,hybrid
+metabolite_100010896,,0.0,0.2605207507151588,100010896,2'-O-methyluridine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",2140-76-3,,0.2605207507151588,genetics
+metabolite_100001287,5.0,0.0041306282121484905,0.23884893930168294,100001287,epiandrosterone sulfate,Lipid,Steroid,22229-22-7,C07635,0.24297956751383143,hybrid
+metabolite_1082,2.0,0.00010604616514309217,0.23922315325536003,1082,N-acetylleucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",1188-21-2,C02710,0.23932919942050312,genetics
+metabolite_100001416,1.0,0.004548985175109488,0.22851427345125075,100001416,orotidine,Nucleotide,"Pyrimidine Metabolism, Orotate containing",314-50-1,C01103,0.23306325862636024,hybrid
+metabolite_100009264,,0.0,0.23028985314125838,100009264,glycochenodeoxycholate glucuronide (1),Lipid,Primary Bile Acid Metabolism,,,0.23028985314125838,genetics
+metabolite_1090,,0.0,0.2255654921851058,1090,"bilirubin (Z,Z)",Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,635-65-4,C00486,0.2255654921851058,genetics
+metabolite_100001402,4.0,0.0008990942084597942,0.22067082083954637,100001402,5-acetylamino-6-formylamino-3-methyluracil,Xenobiotics,Xanthine Metabolism,85438-96-6,C16365,0.22156991504800616,genetics
+metabolite_1114,,0.0,0.21993543158573736,1114,3-aminoisobutyrate,Nucleotide,"Pyrimidine Metabolism, Thymine containing",10569-72-9;214139-20-5,C05145,0.21993543158573736,genetics
+metabolite_100001256,,0.0,0.21731578711328703,100001256,N-acetylphenylalanine,Amino Acid,Phenylalanine and Tyrosine Metabolism,2018-61-3,C03519,0.21731578711328703,genetics
+metabolite_100001104,,0.0,0.21183881079652933,100001104,N-acetyltyrosine,Amino Acid,Phenylalanine and Tyrosine Metabolism,537-55-3,,0.21183881079652933,genetics
+metabolite_100001950,1.0,0.00044667449124924374,0.19444929980608971,100001950,"bilirubin (E,E)*",Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,114-25-0,,0.19489597429733896,genetics
+metabolite_100022006,,0.0,0.19450367380015032,100022006,"bilirubin degradation product, C17H18N2O4 (2)**",Partially Characterized Molecules,Partially Characterized Molecules,,,0.19450367380015032,genetics
+metabolite_100022004,,0.0,0.1929876224392203,100022004,"bilirubin degradation product, C16H18N2O5 (2)**",Partially Characterized Molecules,Partially Characterized Molecules,,,0.1929876224392203,genetics
+metabolite_100022007,,0.0,0.1882568556707338,100022007,"bilirubin degradation product, C17H18N2O4 (3)**",Partially Characterized Molecules,Partially Characterized Molecules,,,0.1882568556707338,genetics
+metabolite_100022005,,0.0,0.18365403329780627,100022005,"bilirubin degradation product, C17H18N2O4 (1)**",Partially Characterized Molecules,Partially Characterized Molecules,,,0.18365403329780627,genetics
+metabolite_100003696,3.0,0.001387578133961287,0.1775681574959065,100003696,succinimide,Xenobiotics,Chemical,123-56-8,C07273,0.17895573562986777,genetics
+metabolite_100022003,,0.0,0.17805953846741485,100022003,"bilirubin degradation product, C16H18N2O5 (1)**",Partially Characterized Molecules,Partially Characterized Molecules,,,0.17805953846741485,genetics
+metabolite_100002021,41.0,0.17619528303094922,0.0,100002021,"5alpha-androstan-3beta,17alpha-diol disulfate",Lipid,Steroid,,,0.17619528303094922,microbiome
+metabolite_100005864,24.0,0.029166019965019774,0.1467117753434305,100005864,methyl glucopyranoside (alpha + beta),Xenobiotics,Food Component/Plant,,,0.17587779530845027,hybrid
+metabolite_100001315,42.0,0.17366403570576638,0.0,100001315,p-cresol sulfate,Amino Acid,Phenylalanine and Tyrosine Metabolism,3233-57-7,C01468,0.17366403570576638,microbiome
+metabolite_100000096,7.0,0.00318053928393891,0.16711286605388265,100000096,4-guanidinobutanoate,Amino Acid,Guanidino and Acetamido Metabolism,463-003;463-00-3,C01035,0.17029340533782156,hybrid
+metabolite_136,16.0,0.1631283483987882,0.0,136,cholate,Lipid,Primary Bile Acid Metabolism,81-25-4,C00695,0.1631283483987882,microbiome
+metabolite_100021331,2.0,0.004753717099909682,0.15407905205553085,100021331,metabolonic lactone sulfate,Lipid,Sterol,,,0.15883276915544053,hybrid
+metabolite_100009124,12.0,0.003025994291339873,0.15152962596994035,100009124,1-margaroyl-2-arachidonoyl-GPC (17:0/20:4)*,Lipid,Phospholipid Metabolism,,,0.15455562026128022,hybrid
+metabolite_100001951,,0.0,0.1528035364555932,100001951,"bilirubin (E,Z or Z,E)*",Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,,,0.1528035364555932,genetics
+metabolite_100001870,,0.0,0.1515948938224696,100001870,1-palmitoyl-2-linoleoyl-GPE (16:0/18:2),Lipid,Phospholipid Metabolism,,,0.1515948938224696,genetics
+metabolite_100002761,,0.0,0.15159195938426384,100002761,androsterone glucuronide,Lipid,Androgenic Steroids,1852-43-3,C11135,0.15159195938426384,genetics
+metabolite_340,2.0,0.0038125940480036036,0.14492553951710407,340,glycine,Amino Acid,"Glycine, Serine and Threonine Metabolism",56-40-6,C00037,0.14873813356510768,hybrid
+metabolite_100002796,,0.0,0.14704895328347978,100002796,cis-4-decenoate (10:1n6)*,Lipid,Medium Chain Fatty Acid,505-90-8,,0.14704895328347978,genetics
+metabolite_100006191,33.0,0.14537085243693437,0.0,100006191,p-cresol glucuronide*,Amino Acid,Phenylalanine and Tyrosine Metabolism,17680-99-8,,0.14537085243693437,microbiome
+metabolite_100001417,37.0,0.1440877071610056,0.0,100001417,phenylacetylglutamine,Amino Acid,Phenylalanine and Tyrosine Metabolism,28047-15-6,C04148,0.1440877071610056,microbiome
+metabolite_100001083,47.0,0.14152991270996274,0.0,100001083,indolepropionate,Amino Acid,Tryptophan Metabolism,830-96-6,,0.14152991270996274,microbiome
+metabolite_100002027,,0.0,0.1404011861405149,100002027,"androstenediol (3alpha, 17alpha) monosulfate (3)",Lipid,Steroid,,,0.1404011861405149,genetics
+metabolite_100002126,2.0,1.8410631208443107e-07,0.1385740978763471,100002126,16a-hydroxy DHEA 3-sulfate,Lipid,Steroid,,,0.1385742819826592,genetics
+metabolite_100004227,3.0,0.0009309104675071511,0.1326058159067558,100004227,2-aminooctanoate,Lipid,"Fatty Acid, Amino",644-90-6,,0.13353672637426295,genetics
+metabolite_100000014,59.0,0.1334852582230348,0.0,100000014,hippurate,Xenobiotics,Benzoate Metabolism,495-69-2,C01586,0.1334852582230348,microbiome
+metabolite_192,7.0,0.0001903922108040801,0.13073917123279588,192,N-acetylputrescine,Amino Acid,Polyamine Metabolism,18233-70-0,C02714,0.13092956344359996,genetics
+metabolite_100000263,1.0,0.00010068122999640217,0.13061606269102222,100000263,imidazole lactate,Amino Acid,Histidine Metabolism,14403-45-3,C05568,0.13071674392101862,genetics
+metabolite_100001293,,0.0,0.13000722558142508,100001293,N-acetylhistidine,Amino Acid,Histidine Metabolism,39145-52-3,C02997,0.13000722558142508,genetics
+metabolite_100008990,13.0,0.001045545101506784,0.12528461961424264,100008990,1-palmitoyl-2-arachidonoyl-GPE (16:0/20:4)*,Lipid,Phospholipid Metabolism,,,0.12633016471574943,genetics
+metabolite_100021100,,0.0,0.12612201325379657,100021100,tetradecadienedioate (C14:2-DC)*,Lipid,"Fatty Acid, Dicarboxylate",,,0.12612201325379657,genetics
+metabolite_100001423,30.0,0.12541605005913148,0.0,100001423,4-hydroxyhippurate,Xenobiotics,Benzoate Metabolism,2482-25-9,,0.12541605005913148,microbiome
+metabolite_100008991,1.0,0.002750766700242324,0.12169019467497699,100008991,1-palmitoyl-2-docosahexaenoyl-GPE (16:0/22:6)*,Lipid,Phospholipid Metabolism,,,0.12444096137521932,hybrid
+metabolite_100015966,34.0,0.0539834758798432,0.06839466361294966,100015966,carotene diol (1),Xenobiotics,Food Component/Plant,,,0.12237813949279286,hybrid
+metabolite_100001055,11.0,0.022176150787441062,0.09953513608127906,100001055,isobutyrylcarnitine (C4),Amino Acid,"Leucine, Isoleucine and Valine Metabolism",25518-49-4,,0.12171128686872013,hybrid
+metabolite_100001405,2.0,0.035756754157723614,0.07648606783254908,100001405,1-methylxanthine,Xenobiotics,Xanthine Metabolism,6136-37-4,C16358,0.11224282199027269,hybrid
+metabolite_100008977,16.0,0.00012886974066261825,0.111980515609443,100008977,1-stearoyl-2-arachidonoyl-GPE (18:0/20:4),Lipid,Phospholipid Metabolism,,,0.11210938535010562,genetics
+metabolite_100021104,2.0,0.0007494417989235558,0.10983580610932309,100021104,pregnenetriol disulfate*,Lipid,Pregnenolone Steroids,,,0.11058524790824664,genetics
+metabolite_100020536,35.0,0.11024056988271069,0.0,100020536,4-ethylcatechol sulfate,Xenobiotics,Benzoate Metabolism,,,0.11024056988271069,microbiome
+metabolite_100009078,1.0,0.002210634461354055,0.107064915517184,100009078,1-oleoyl-2-linoleoyl-GPE (18:1/18:2)*,Lipid,Phospholipid Metabolism,,,0.10927554997853806,hybrid
+metabolite_100021374,41.0,0.10737188411854515,0.0,100021374,branched chain 14:0 dicarboxylic acid**,Lipid,"Fatty Acid, Dicarboxylate",,,0.10737188411854515,microbiome
+metabolite_100005403,12.0,0.00779000070830882,0.09832647437155839,100005403,etiocholanolone glucuronide,Lipid,Steroid,9/3/02,,0.10611647507986721,hybrid
+metabolite_100004295,41.0,0.10550146595612786,0.0,100004295,2-piperidinone,Xenobiotics,Food Component/Plant,675-20-7,,0.10550146595612786,microbiome
+metabolite_100001657,47.0,0.10478147590183451,0.0,100001657,glycolithocholate sulfate*,Lipid,Secondary Bile Acid Metabolism,15324-64-8,C11301,0.10478147590183451,microbiome
+metabolite_100002911,47.0,0.10336428946509857,0.0,100002911,glycoursodeoxycholate,Lipid,Secondary Bile Acid Metabolism,64480-66-6,,0.10336428946509857,microbiome
+metabolite_100001733,1.0,0.000659340659767027,0.10214705302590832,100001733,hexanoylglutamine,,,,,0.10280639368567535,genetics
+metabolite_100001294,,0.0,0.10239703929729682,100001294,gamma-glutamylglycine,Peptide,Gamma-glutamyl Amino Acid,1948-29-4,,0.10239703929729682,genetics
+metabolite_98,1.0,0.007841450564363361,0.09372527207879433,98,kynurenate,Amino Acid,Tryptophan Metabolism,492-27-3,C01717,0.10156672264315769,hybrid
+metabolite_100001869,12.0,0.0001571005395336611,0.10117247697476062,100001869,1-stearoyl-2-arachidonoyl-GPC (18:0/20:4),Lipid,Phospholipid Metabolism,35418-59-8,,0.10132957751429428,genetics
+metabolite_100009184,,0.0,0.10091355367643706,100009184,1-stearoyl-2-dihomo-linolenoyl-GPI (18:0/20:3n3 or 6)*,,,,,0.10091355367643706,genetics
+metabolite_100009122,14.0,0.00783746747223324,0.0923433139877301,100009122,1-pentadecanoyl-2-arachidonoyl-GPC (15:0/20:4)*,Lipid,Phospholipid Metabolism,,,0.10018078145996334,hybrid
+metabolite_100020377,10.0,0.0083099448874,0.09144392756653008,100020377,ethyl beta-glucopyranoside,Xenobiotics,Food Component/Plant,,,0.09975387245393008,hybrid
+metabolite_100015967,32.0,0.05269137987932371,0.04702200106292054,100015967,carotene diol (2),Xenobiotics,Food Component/Plant,,,0.09971338094224425,hybrid
+metabolite_100001658,32.0,0.09673403189370489,0.0,100001658,taurolithocholate 3-sulfate,Lipid,Secondary Bile Acid Metabolism,64936-83-0,C03642,0.09673403189370489,microbiome
+metabolite_100006098,23.0,0.09643940756373126,0.0,100006098,3-hydroxypyridine sulfate,Xenobiotics,Chemical,1955-23-3,,0.09643940756373126,microbiome
+metabolite_100001993,,0.0,0.0961723699712459,100001993,pregnenediol disulfate (C21H34O8S2)*,Lipid,Steroid,,,0.0961723699712459,genetics
+metabolite_100020214,15.0,0.013576744486404446,0.0821059221481617,100020214,glyco-beta-muricholate**,Lipid,Primary Bile Acid Metabolism,,,0.09568266663456615,hybrid
+metabolite_2051,2.0,0.008370388640262516,0.08511072331726977,2051,methylsuccinate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",498-21-5,,0.09348111195753228,hybrid
+metabolite_100001734,,0.0,0.09118260122262789,100001734,N6-acetyllysine,Amino Acid,Lysine Metabolism,692-04-6,C02727,0.09118260122262789,genetics
+metabolite_100005996,4.0,0.007409006659540696,0.08302417857659805,100005996,octadecenedioylcarnitine (C18:1-DC)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),251981-06-3,,0.09043318523613875,hybrid
+metabolite_100020204,1.0,0.0003373177305041608,0.08944494299088668,100020204,N-acetyl-2-aminooctanoate*,Lipid,"Fatty Acid, Amino",,,0.08978226072139084,genetics
+metabolite_100002259,1.0,0.013953489403636832,0.07529361932036505,100002259,cis-4-decenoylcarnitine (C10:1),Lipid,Fatty Acid Metabolism(Acyl Carnitine),98930-66-6,,0.08924710872400188,hybrid
+metabolite_100000781,5.0,0.000274684365937361,0.08879846125087887,100000781,hexanoylcarnitine (C6),Lipid,Fatty Acid Metabolism(Acyl Carnitine),6920-35-0,,0.08907314561681623,genetics
+metabolite_100006370,6.0,0.0016918296584657044,0.086897608204755,100006370,3beta-hydroxy-5-cholestenoate,Lipid,Sterol,6561-58-6,C17333,0.08858943786322071,hybrid
+metabolite_100001605,39.0,0.086766058972086,0.0,100001605,catechol sulfate,Xenobiotics,Benzoate Metabolism,4918-96-1,C00090,0.086766058972086,microbiome
+metabolite_100009378,2.0,0.007901398422463402,0.07828872240809259,100009378,1-(1-enyl-stearoyl)-2-dihomo-linolenoyl-GPE (P-18:0/20:3)*,Lipid,Plasmalogen,,,0.086190120830556,hybrid
+metabolite_100006082,2.0,0.01737828631417615,0.06783112239662725,100006082,4-hydroxychlorothalonil,Xenobiotics,Chemical,28343-61-5,,0.0852094087108034,hybrid
+metabolite_100003434,49.0,0.08374277945397168,0.0,100003434,imidazole propionate,Amino Acid,Histidine Metabolism,1074-59-5,,0.08374277945397168,microbiome
+metabolite_100020823,32.0,0.08351456995417172,0.0,100020823,lithocholate sulfate (1),Lipid,Secondary Bile Acid Metabolism,,,0.08351456995417172,microbiome
+metabolite_100004575,8.0,0.02874479325674928,0.05297868888585222,100004575,"N2,N5-diacetylornithine",Amino Acid,Urea cycle; Arginine and Proline Metabolism,39825-23-5,,0.0817234821426015,hybrid
+metabolite_100001510,14.0,0.08139512478348021,0.0,100001510,phenol sulfate,Amino Acid,Phenylalanine and Tyrosine Metabolism,937-34-8,C02180,0.08139512478348021,microbiome
+metabolite_100006642,7.0,0.030904538944842908,0.050403310912766064,100006642,glycodeoxycholate 3-sulfate,Lipid,Secondary Bile Acid Metabolism,,,0.08130784985760897,hybrid
+metabolite_100002049,25.0,0.08049259505594386,0.0,100002049,4-hydroxycoumarin,Xenobiotics,Drug,1076-38-6,C20414,0.08049259505594386,microbiome
+metabolite_100001989,5.0,7.515258687385007e-05,0.08027113811240438,100001989,glycocholenate sulfate*,Lipid,Secondary Bile Acid Metabolism,,,0.08034629069927823,genetics
+metabolite_100001446,,0.0,0.07977681998867969,100001446,5-methyluridine (ribothymidine),Nucleotide,"Pyrimidine Metabolism, Uracil containing",1463-10-1,,0.07977681998867969,genetics
+metabolite_100001150,4.0,0.0015728410892643652,0.07797375029026976,100001150,propionylglycine,Lipid,Fatty Acid Metabolism (also BCAA Metabolism),21709-90-0,,0.07954659137953413,hybrid
+metabolite_100015620,8.0,0.0014081280189521816,0.07762337627145788,100015620,lactosyl-N-nervonoyl-sphingosine (d18:1/24:1)*,Lipid,Sphingolipid Metabolism,,,0.07903150429041006,hybrid
+metabolite_339,42.0,0.0775376851186308,0.0,339,glutarate (C5-DC),Amino Acid,Lysine Metabolism,110-94-1,C00489,0.0775376851186308,microbiome
+metabolite_100002018,5.0,0.0020183292762864236,0.07492683111814558,100002018,"5alpha-androstan-3alpha,17beta-diol monosulfate (1)",Lipid,Steroid,,,0.076945160394432,hybrid
+metabolite_1135,45.0,0.07529609450183661,0.0,1135,ursodeoxycholate,Lipid,Secondary Bile Acid Metabolism,128-13-2,C07880,0.07529609450183661,microbiome
+metabolite_1113,,0.0,0.07502626115531619,1113,4-acetamidobutanoate,Amino Acid,Polyamine Metabolism,3025-96-5,C02946,0.07502626115531619,genetics
+metabolite_100001987,1.0,0.0018757879654525134,0.07223225039255865,100001987,"5alpha-androstan-3beta,17beta-diol disulfate",Lipid,Steroid,571-20-0,C12525,0.07410803835801116,hybrid
+metabolite_100001006,,0.0,0.07183026502400114,100001006,N-acetylglycine,Amino Acid,"Glycine, Serine and Threonine Metabolism",543-24-8,,0.07183026502400114,genetics
+metabolite_100009215,9.0,0.014438921870792654,0.05653500983728277,100009215,1-stearoyl-2-dihomo-linolenoyl-GPE (18:0/20:3n3 or 6)*,Lipid,Phospholipid Metabolism,,,0.07097393170807542,hybrid
+metabolite_100015792,1.0,0.0013196982493165477,0.06950733714361923,100015792,"sphingomyelin (d18:1/25:0, d19:0/24:1, d20:1/23:0, d19:1/24:0)*",Lipid,Sphingolipid Metabolism,,,0.07082703539293578,hybrid
+metabolite_445,3.0,2.6753302328819117e-05,0.0701576114253517,445,orotate,Nucleotide,"Pyrimidine Metabolism, Orotate containing",50887-69-9,C00295,0.07018436472768053,genetics
+metabolite_100010922,24.0,0.00910960639296865,0.060726084227174626,100010922,linoleoyl-arachidonoyl-glycerol (18:2/20:4) [1]*,,,,,0.06983569062014328,hybrid
+metabolite_1224,1.0,5.1035221928841246e-05,0.06872313170773425,1224,"cys-gly, oxidized",Amino Acid,Glutathione Metabolism,7729-20-6,,0.0687741669296631,genetics
+metabolite_100022009,,0.0,0.06877299925586944,100022009,"bilirubin degradation product, C17H20N2O5 (2)**",Partially Characterized Molecules,Partially Characterized Molecules,,,0.06877299925586944,genetics
+metabolite_100008918,2.0,0.01194257030127388,0.05664677622712455,100008918,1-(1-enyl-stearoyl)-2-arachidonoyl-GPC (P-18:0/20:4),Lipid,Plasmalogen,97802-56-7,,0.06858934652839843,hybrid
+metabolite_100010936,14.0,0.0005304489139885682,0.06804722134425012,100010936,oleoyl-arachidonoyl-glycerol (18:1/20:4) [1]*,,,,,0.06857767025823869,genetics
+metabolite_100019982,2.0,0.012337009374299601,0.05607511170417245,100019982,octadecadienedioate (C18:2-DC)*,Lipid,"Fatty Acid, Dicarboxylate",,,0.06841212107847205,hybrid
+metabolite_100000442,5.0,0.06786050631176488,0.0,100000442,quinate,Xenobiotics,Food Component/Plant,77-95-2,C00296,0.06786050631176488,microbiome
+metabolite_100021712,7.0,0.0678547328523913,0.0,100021712,deoxycholic acid 12-sulfate*,Lipid,Secondary Bile Acid Metabolism,,,0.0678547328523913,microbiome
+metabolite_100008914,14.0,0.00013708085683838966,0.06768435120083582,100008914,1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4n6),Lipid,Phospholipid Metabolism,35418-58-7,,0.06782143205767421,genetics
+metabolite_100010937,26.0,0.007720043579863223,0.060085022268903776,100010937,oleoyl-arachidonoyl-glycerol (18:1/20:4) [2]*,,,,,0.067805065848767,hybrid
+metabolite_100002152,2.0,0.00029662115958628554,0.06748726435688812,100002152,andro steroid monosulfate C19H28O6S (1)*,Lipid,Steroid,,C04555,0.06778388551647441,genetics
+metabolite_100019978,6.0,0.0037941882836545204,0.06388165453221528,100019978,octadecenedioate (C18:1-DC),Lipid,"Fatty Acid, Dicarboxylate",,,0.0676758428158698,hybrid
+metabolite_100020578,16.0,0.06737509642370354,0.0,100020578,4-allylcatechol sulfate,,,,,0.06737509642370354,microbiome
+metabolite_100009014,2.0,0.01467673045637341,0.05252100359998235,100009014,1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)*,Lipid,Plasmalogen,,,0.06719773405635576,hybrid
+metabolite_100002154,18.0,0.06640572959095592,0.0,100002154,ergothioneine,Xenobiotics,Food Component/Plant,58511-63-0,C05570,0.06640572959095592,microbiome
+metabolite_100002122,9.0,0.06574895267693304,0.0,100002122,3-hydroxyhippurate,Xenobiotics,Benzoate Metabolism,1637-75-8,,0.06574895267693304,microbiome
+metabolite_100020219,2.0,0.001751391730360763,0.06382013883056314,100020219,3-formylindole,Xenobiotics,Food Component/Plant,487-89-8,C08493,0.06557153056092391,hybrid
+metabolite_100001197,1.0,0.0006915686763431239,0.06476894041302084,100001197,10-undecenoate (11:1n1),Lipid,Medium Chain Fatty Acid,1333-28-4,C13910,0.06546050908936396,hybrid
+metabolite_100001948,6.0,0.006571123817184499,0.05839775677662662,100001948,succinylcarnitine (C4-DC),Energy,TCA Cycle,256928-74-2,,0.06496888059381112,hybrid
+metabolite_100002094,2.0,3.5057989833386927e-07,0.06481780563728046,100002094,gamma-CEHC,Cofactors and Vitamins,Tocopherol Metabolism,178167-75-4,,0.06481815621717879,genetics
+metabolite_100022127,,0.0,0.06356763789240272,100022127,tetrahydrocortisone glucuronide (5),Lipid,Corticosteroids,,,0.06356763789240272,genetics
+metabolite_100001593,,0.0,0.06163857606945611,100001593,glutarylcarnitine (C5-DC),Amino Acid,Lysine Metabolism,102636-82-8,,0.06163857606945611,genetics
+metabolite_100001208,2.0,0.0006071501308420046,0.06017163467071618,100001208,1-methyl-4-imidazoleacetate,Amino Acid,Histidine Metabolism,2625-49-2,C05828,0.06077878480155818,genetics
+metabolite_100022008,,0.0,0.060704774708565834,100022008,"bilirubin degradation product, C17H20N2O5 (1)**",Partially Characterized Molecules,Partially Characterized Molecules,,,0.060704774708565834,genetics
+metabolite_100009148,2.0,0.005055811958154188,0.05100131264086494,100009148,1-oleoyl-2-dihomo-linolenoyl-GPC (18:1/20:3)*,Lipid,Phospholipid Metabolism,,,0.056057124599019126,hybrid
+metabolite_100003686,,0.0,0.055138491113134735,100003686,N-palmitoylglycine,Lipid,Fatty Acid Metabolism(Acyl Glycine),2441-41-0,,0.055138491113134735,genetics
+metabolite_100001034,12.0,0.05508545217300631,0.0,100001034,indoleacetate,Amino Acid,Tryptophan Metabolism,6505-45-9,C00954,0.05508545217300631,microbiome
+metabolite_100004499,,0.0,0.05498064140973313,100004499,6-oxopiperidine-2-carboxylate,Amino Acid,Lysine Metabolism,34622-39-4,,0.05498064140973313,genetics
+metabolite_100001977,36.0,0.054648068330531596,0.0,100001977,beta-cryptoxanthin,Xenobiotics,Food Component/Plant,472-70-8,,0.054648068330531596,microbiome
+metabolite_100001554,1.0,0.00931576522655786,0.04530660584269486,100001554,2-arachidonoyl-GPC (20:4)*,Lipid,Lysolipid,,,0.05462237106925272,hybrid
+metabolite_100004208,26.0,0.053818877285403466,0.0,100004208,guaiacol sulfate,Xenobiotics,Benzoate Metabolism,,,0.053818877285403466,microbiome
+metabolite_100005850,1.0,0.0009664230377142147,0.05238678479277881,100005850,3-methylglutarylcarnitine (2),Amino Acid,Lysine Metabolism,,,0.05335320783049302,hybrid
+metabolite_100003473,2.0,8.649044872377498e-05,0.053230995822569516,100003473,alliin,Xenobiotics,Food Component/Plant,556-27-4,C08265,0.05331748627129329,genetics
+metabolite_100019975,5.0,0.001548940346047245,0.051516531108936725,100019975,hexadecenedioate (C16:1-DC)*,Lipid,"Fatty Acid, Dicarboxylate",,,0.05306547145498397,hybrid
+metabolite_100020371,24.0,0.051747806274612174,0.0,100020371,"N,N-dimethylalanine",Amino Acid,Alanine and Aspartate Metabolism,2812-31-9,,0.051747806274612174,microbiome
+metabolite_100015837,6.0,0.00020194178476584668,0.05011513732077899,100015837,arachidonoylcarnitine (C20:4),Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.05031707910554484,genetics
+metabolite_917,3.0,3.621670676090538e-05,0.04978404088820099,917,asparagine,Amino Acid,Alanine and Aspartate Metabolism,70-47-3,C00152,0.04982025759496189,genetics
+metabolite_100001992,8.0,0.004965146565120593,0.04467692622660058,100001992,"androstenediol (3beta,17beta) disulfate (1)",Lipid,Steroid,,C04295,0.04964207279172117,hybrid
+metabolite_100002185,19.0,0.04917060765187886,0.0,100002185,indole-3-carboxylate,Amino Acid,Tryptophan Metabolism,771-50-6,C19837,0.04917060765187886,microbiome
+metabolite_100015786,10.0,0.0025683598679546726,0.04619264731262318,100015786,"sphingomyelin (d18:0/20:0, d16:0/22:0)*",Lipid,Sphingolipid Metabolism,,,0.04876100718057785,hybrid
+metabolite_100001609,14.0,0.04870296699592214,0.0,100001609,7-alpha-hydroxy-3-oxo-4-cholestenoate (7-Hoca),Lipid,Sterol,115538-85-7,C17337,0.04870296699592214,microbiome
+metabolite_100001551,10.0,0.004770473429617339,0.043542486617477616,100001551,1-arachidonoyl-GPC (20:4n6)*,Lipid,Lysolipid,,C05208,0.048312960047094955,hybrid
+metabolite_100006260,17.0,0.0482362215180574,0.0,100006260,6-hydroxyindole sulfate,Xenobiotics,Chemical,,,0.0482362215180574,microbiome
+metabolite_100001614,1.0,0.008131932367517747,0.04007280612584008,100001614,hexadecanedioate (C16-DC),Lipid,"Fatty Acid, Dicarboxylate",505-54-4,C19615,0.048204738493357824,hybrid
+metabolite_100021324,7.0,0.04799106097352368,0.0,100021324,"3,5-dichloro-2,6-dihydroxybenzoic acid",,,,,0.04799106097352368,microbiome
+metabolite_1021,2.0,0.00041439936934395405,0.04646301705422251,1021,5-oxoproline,Amino Acid,Glutathione Metabolism,98-79-3,C01879,0.046877416423566465,genetics
+metabolite_100015727,,0.0,0.04673774489314775,100015727,"ceramide (d16:1/24:1, d18:1/22:1)*",Lipid,Ceramides,,,0.04673774489314775,genetics
+metabolite_100008976,1.0,0.007278170922086602,0.03907695057827898,100008976,1-stearoyl-2-linoleoyl-GPE (18:0/18:2)*,Lipid,Phospholipid Metabolism,,,0.04635512150036558,hybrid
+metabolite_100006375,16.0,0.04619020330718804,0.0,100006375,3-methoxycatechol sulfate (1),Xenobiotics,Benzoate Metabolism,,,0.04619020330718804,microbiome
+metabolite_100008989,7.0,0.008556252153161914,0.037357702620374744,100008989,1-palmitoyl-2-eicosapentaenoyl-GPC (16:0/20:5)*,Lipid,Phospholipid Metabolism,,,0.04591395477353666,hybrid
+metabolite_229,6.0,0.0024148669193112537,0.04340893656178135,229,arachidonate (20:4n6),Lipid,Polyunsaturated Fatty Acid (n3 and n6),506-32-1,C00219,0.045823803481092606,hybrid
+metabolite_100002024,3.0,0.003885827522356,0.04181205401885124,100002024,"5alpha-androstan-3beta,17beta-diol monosulfate (2)",Lipid,Steroid,,,0.04569788154120724,hybrid
+metabolite_100006108,25.0,0.04542254391172129,0.0,100006108,phenylacetylcarnitine,Amino Acid,Phenylalanine and Tyrosine Metabolism,287108-21-8,,0.04542254391172129,microbiome
+metabolite_100001613,7.0,0.00014897580424377832,0.04502627609743215,100001613,tetradecanedioate (C14-DC),Lipid,"Fatty Acid, Dicarboxylate",821-38-5,,0.04517525190167593,genetics
+metabolite_1134,2.0,0.002759928582497073,0.042054836958116515,1134,urate,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",69-93-2;120K5305,C00366,0.04481476554061359,hybrid
+metabolite_100000467,22.0,0.0422173530759925,0.0,100000467,3-indoxyl sulfate,Amino Acid,Tryptophan Metabolism,2642-37-7,,0.0422173530759925,microbiome
+metabolite_100021992,2.0,1.4963856322047775e-05,0.041117704953193224,100021992,"cis-3,4-methyleneheptanoylglycine",Lipid,Fatty Acid Metabolism (Acyl Glycine),,,0.04113266880951527,genetics
+metabolite_100009364,,0.0,0.04060903195958765,100009364,"phosphatidylcholine (18:0/20:2, 20:0/18:2)*",Lipid,Phospholipid Metabolism,,,0.04060903195958765,genetics
+metabolite_100009000,8.0,0.03933997642226095,0.0,100009000,1-(1-enyl-palmitoyl)-2-docosahexaenoyl-GPE (P-16:0/22:6)*,Lipid,Plasmalogen,,,0.03933997642226095,microbiome
+metabolite_100004322,8.0,0.038384304452669715,0.0,100004322,2-aminophenol sulfate,Xenobiotics,Chemical,,,0.038384304452669715,microbiome
+metabolite_100004182,6.0,0.038120225419123854,0.0,100004182,3b-hydroxy-5-cholenoic acid,Lipid,Secondary Bile Acid Metabolism,5255-17-4,,0.038120225419123854,microbiome
+metabolite_100001452,,0.0,0.0374604437622329,100001452,isovalerylglycine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",16284-60-9,,0.0374604437622329,genetics
+metabolite_100002927,12.0,0.03696358439853775,0.0,100002927,S-methylcysteine sulfoxide,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",6853-87-8,,0.03696358439853775,microbiome
+metabolite_100000774,8.0,0.008276748722226834,0.028098623245499388,100000774,phenyllactate (PLA),Amino Acid,Phenylalanine and Tyrosine Metabolism,828-01-3,C05607,0.03637537196772622,hybrid
+metabolite_100001756,31.0,0.03536939230996894,0.0,100001756,4-ethylphenylsulfate,Xenobiotics,Benzoate Metabolism,123-07-9,C13637,0.03536939230996894,microbiome
+metabolite_100001868,5.0,0.03534210851366426,0.0,100001868,4-allylphenol sulfate,Xenobiotics,Food Component/Plant,,,0.03534210851366426,microbiome
+metabolite_100009376,6.0,0.03515529376489879,0.0,100009376,1-(1-enyl-oleoyl)-2-docosahexaenoyl-GPE (P-18:1/22:6)*,,,,,0.03515529376489879,microbiome
+metabolite_100009002,3.0,0.035127997065473315,0.0,100009002,1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)*,Lipid,Plasmalogen,,,0.035127997065473315,microbiome
+metabolite_100006092,14.0,0.034211975441434506,0.0,100006092,tyramine O-sulfate,Amino Acid,Phenylalanine and Tyrosine Metabolism,30223-92-8,,0.034211975441434506,microbiome
+metabolite_100000997,2.0,0.007661139506396131,0.026196098953691127,100000997,3-hydroxydecanoate,Lipid,"Fatty Acid, Monohydroxy",5561-87-5,,0.03385723846008726,hybrid
+metabolite_100015687,3.0,0.03312490319516215,0.0,100015687,"phosphatidylethanolamine (P-18:1/20:4, P-16:0/22:5n3)*",Lipid,Phospholipid Metabolism,,,0.03312490319516215,microbiome
+metabolite_100009162,2.0,0.0007180605895230618,0.03135900054081864,100009162,1-(1-enyl-palmitoyl)-2-palmitoyl-GPC (P-16:0/16:0)*,Lipid,Plasmalogen,,,0.0320770611303417,hybrid
+metabolite_100004112,3.0,0.03183014596770106,0.0,100004112,3-methyl catechol sulfate (1),Xenobiotics,Benzoate Metabolism,,,0.03183014596770106,microbiome
+metabolite_100008919,5.0,0.03157831258325061,0.0,100008919,1-(1-enyl-stearoyl)-2-oleoyl-GPE (P-18:0/18:1),Lipid,Plasmalogen,144371-68-6,,0.03157831258325061,microbiome
+metabolite_100000773,2.0,0.000346524078893351,0.031092969875187504,100000773,3-hydroxyoctanoate,Lipid,"Fatty Acid, Monohydroxy",88930-08-9,,0.031439493954080855,hybrid
+metabolite_100001990,1.0,0.0012019663980328277,0.03004081633557476,100001990,taurocholenate sulfate*,Lipid,Secondary Bile Acid Metabolism,,,0.031242782733607588,hybrid
+metabolite_803,1.0,0.0007633956990399371,0.030170837593033406,803,mannose,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",3458-28-4,C00159,0.030934233292073343,hybrid
+metabolite_480,4.0,0.0004270402338191204,0.030273248945218212,480,proline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,147-85-3,C00148,0.030700289179037332,hybrid
+metabolite_100001590,1.0,0.0005294794054681029,0.029965746034682605,100001590,isobutyrylglycine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",15926-18-8,,0.03049522544015071,hybrid
+metabolite_100009051,5.0,0.029960995091868448,0.0,100009051,1-stearoyl-2-dihomo-linolenoyl-GPC (18:0/20:3n3 or 6)*,Lipid,Phospholipid Metabolism,,,0.029960995091868448,microbiome
+metabolite_100008992,8.0,1.489120392739185e-05,0.029841761309270853,100008992,1-stearoyl-2-docosahexaenoyl-GPE (18:0/22:6)*,Lipid,Phospholipid Metabolism,,,0.029856652513198245,genetics
+metabolite_100009166,3.0,0.0009156029578647473,0.028344627657338695,100009166,"phosphatidylcholine (16:0/22:5n3, 18:1/20:4)*",Lipid,Phospholipid Metabolism,,,0.029260230615203442,hybrid
+metabolite_100009069,5.0,0.029151563148519855,0.0,100009069,1-(1-enyl-palmitoyl)-2-linoleoyl-GPE (P-16:0/18:2)*,Lipid,Plasmalogen,,,0.029151563148519855,microbiome
+metabolite_100000841,7.0,0.029126874599917585,0.0,100000841,oxalate (ethanedioate),Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,144-62-7,C00209,0.029126874599917585,microbiome
+metabolite_100010925,31.0,0.028021431357925675,0.0,100010925,palmitoyl-arachidonoyl-glycerol (16:0/20:4) [2]*,,,,,0.028021431357925675,microbiome
+metabolite_100006361,6.0,0.027709559829058317,0.0,100006361,dopamine 3-O-sulfate,Amino Acid,Phenylalanine and Tyrosine Metabolism,,C13690,0.027709559829058317,microbiome
+metabolite_100002749,9.0,0.02755101784697689,0.0,100002749,S-methylcysteine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",1187-84-4,,0.02755101784697689,microbiome
+metabolite_100009005,4.0,0.027097609817094748,0.0,100009005,1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)*,Lipid,Plasmalogen,,,0.027097609817094748,microbiome
+metabolite_100020419,14.0,0.026788206001037373,0.0,100020419,1-carboxyethylphenylalanine,Amino Acid,Phenylalanine Metabolism,,,0.026788206001037373,microbiome
+metabolite_100020372,,0.0,0.02663229047143023,100020372,3-indoleglyoxylic acid,Xenobiotics,Food Component/Plant,1477-49-2,,0.02663229047143023,genetics
+metabolite_100001403,4.0,0.025265593046017054,0.0,100001403,5-acetylamino-6-amino-3-methyluracil,Xenobiotics,Xanthine Metabolism,1196153-01-1,C16366,0.025265593046017054,microbiome
+metabolite_100001092,11.0,0.024937353228045023,0.0,100001092,trigonelline (N'-methylnicotinate),Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,535-83-1,C01004,0.024937353228045023,microbiome
+metabolite_100003119,1.0,0.024580565931103582,0.0,100003119,N-oleoyltaurine,Lipid,Endocannabinoid,52514-04-2,,0.024580565931103582,microbiome
+metabolite_100008951,4.0,0.0002035999185435733,0.02430193144610393,100008951,leucylphenylalanine/isoleucylphenylalanine,Peptide,Dipeptide,,,0.024505531364647504,genetics
+metabolite_100001254,1.0,0.0008517687177117539,0.023556434652845737,100001254,N-acetyltryptophan,Amino Acid,Tryptophan Metabolism,1218-34-4,C03137,0.02440820337055749,hybrid
+metabolite_100015834,,0.0,0.02440529280980641,100015834,lignoceroylcarnitine (C24)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.02440529280980641,genetics
+metabolite_100010916,7.0,0.0233652980376875,0.0,100010916,palmitoyl-oleoyl-glycerol (16:0/18:1) [1]*,Lipid,Diacylglycerol,,C13861,0.0233652980376875,microbiome
+metabolite_100001635,1.0,0.02333154614445021,0.0,100001635,ectoine,Xenobiotics,Chemical,96702-03-3,C06231,0.02333154614445021,microbiome
+metabolite_100001571,17.0,0.005043635656233558,0.01807575551491214,100001571,1-arachidonoyl-GPE (20:4n6)*,Lipid,Lysolipid,,,0.023119391171145698,hybrid
+metabolite_100002063,7.0,0.016802463379040122,0.006233916249758109,100002063,1-docosapentaenoyl-GPC (22:5n3)*,Lipid,Lysolipid,,,0.02303637962879823,hybrid
+metabolite_100009008,3.0,0.022975603753954466,0.0,100009008,1-(1-enyl-palmitoyl)-2-docosahexaenoyl-GPC (P-16:0/22:6)*,Lipid,Plasmalogen,,,0.022975603753954466,microbiome
+metabolite_100021760,6.0,0.0005743527731674192,0.021926408038294265,100021760,N-acetyl-2-aminoadipate,Amino Acid,Lysine Metabolism,,C12986,0.022500760811461684,hybrid
+metabolite_1668,4.0,0.022466584860363126,0.0,1668,taurodeoxycholate,Lipid,Secondary Bile Acid Metabolism,207737-97-1,C05463,0.022466584860363126,microbiome
+metabolite_1026,1.0,0.021806716619969913,0.0,1026,phosphoethanolamine,Lipid,Phospholipid Metabolism,1071-23-4,C00346,0.021806716619969913,microbiome
+metabolite_1547,9.0,0.02154401024870012,0.0,1547,N-stearoyl-sphingosine (d18:1/18:0)*,,,104404-17-3,,0.02154401024870012,microbiome
+metabolite_100010949,10.0,6.721150005606358e-05,0.02109634569526131,100010949,stearoyl-arachidonoyl-glycerol (18:0/20:4) [1]*,Lipid,Diacylglycerol,,,0.021163557195317373,genetics
+metabolite_100000840,6.0,0.020601796807509176,0.0,100000840,tartronate (hydroxymalonate),Xenobiotics,Bacterial/Fungal,80-69-3,C02287,0.020601796807509176,microbiome
+metabolite_100000042,1.0,0.020519021127835546,0.0,100000042,3-methylhistidine,Amino Acid,Histidine Metabolism,368-16-1,C01152,0.020519021127835546,microbiome
+metabolite_100021707,7.0,0.020069868988209727,0.0,100021707,"3-bromo-5-chloro-2,6-dihydroxybenzoic acid*",,,,,0.020069868988209727,microbiome
+metabolite_100010850,6.0,0.019495329885821477,0.0,100010850,4-hydroxyphenylacetylglutamine,,,,,0.019495329885821477,microbiome
+metabolite_100015968,29.0,0.01933525215494558,0.0,100015968,carotene diol (3),Xenobiotics,Food Component/Plant,,,0.01933525215494558,microbiome
+metabolite_100009139,14.0,0.019307036560386126,0.0,100009139,1-myristoyl-2-arachidonoyl-GPC (14:0/20:4)*,Lipid,Phospholipid Metabolism,,,0.019307036560386126,microbiome
+metabolite_100001170,5.0,0.01923112825597406,0.0,100001170,3-hydroxy-2-ethylpropionate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",4374-62-3,,0.01923112825597406,microbiome
+metabolite_100009160,6.0,0.0005308610907002187,0.018585042429950294,100009160,1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1)*,Lipid,Plasmalogen,,,0.019115903520650512,hybrid
+metabolite_100004541,5.0,0.0188648186124577,0.0,100004541,acisoga,Amino Acid,Polyamine Metabolism,106692-36-8,,0.0188648186124577,microbiome
+metabolite_100008915,1.0,0.018663684967023753,0.0,100008915,1-palmitoyl-2-docosahexaenoyl-GPC (16:0/22:6),Lipid,Phospholipid Metabolism,59403-54-2,,0.018663684967023753,microbiome
+metabolite_100000436,5.0,0.018537433424485328,0.0,100000436,glycodeoxycholate,Lipid,Secondary Bile Acid Metabolism,360-65-6,C05464,0.018537433424485328,microbiome
+metabolite_267,1.0,0.01837205055668978,0.0,267,choline phosphate,Lipid,Phospholipid Metabolism,72556-74-2,C00588,0.01837205055668978,microbiome
+metabolite_100001022,4.0,0.01833894111821699,0.0,100001022,threonate,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,70753-61-6,C01620,0.01833894111821699,microbiome
+metabolite_100004089,10.0,0.018313775680097177,0.0,100004089,2-hydroxydecanoate,Lipid,"Fatty Acid, Monohydroxy",5393-81-7,,0.018313775680097177,microbiome
+metabolite_561,6.0,0.018190931424034718,0.0,561,glutamate,Amino Acid,Glutamate Metabolism,56-86-0,C00025,0.018190931424034718,microbiome
+metabolite_100002910,6.0,0.018022571584261016,0.0,100002910,1-methyl-5-imidazoleacetate,Amino Acid,Histidine Metabolism,4200-48-0,,0.018022571584261016,microbiome
+metabolite_100006614,3.0,0.004889444744061722,0.012966850544383068,100006614,adipoylcarnitine (C6-DC),Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.01785629528844479,hybrid
+metabolite_100004328,1.0,0.0024683270421288483,0.015189984604205842,100004328,"sphingomyelin (d18:1/14:0, d16:1/16:0)*",Lipid,Sphingolipid Metabolism,,,0.01765831164633469,hybrid
+metabolite_100020004,4.0,0.017021798962525647,0.0,100020004,3-carboxy-4-methyl-5-pentyl-2-furanpropionate (3-CMPFP)**,Lipid,"Fatty Acid, Dicarboxylate",,,0.017021798962525647,microbiome
+metabolite_100001145,21.0,0.01686535270764633,0.0,100001145,3-hydroxysebacate,Lipid,"Fatty Acid, Monohydroxy",73141-46-5,,0.01686535270764633,microbiome
+metabolite_100010917,15.0,0.016690309980384455,0.0,100010917,palmitoyl-oleoyl-glycerol (16:0/18:1) [2]*,Lipid,Diacylglycerol,,C13861,0.016690309980384455,microbiome
+metabolite_244,,0.0,0.016609228816443333,244,beta-alanine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",56-41-7;107-95-9,C00099,0.016609228816443333,genetics
+metabolite_100009271,1.0,0.016503305656203615,0.0,100009271,(S)-3-hydroxybutyrylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.016503305656203615,microbiome
+metabolite_100002029,9.0,0.016474338195732963,0.0,100002029,"androstenediol (3beta,17beta) monosulfate (2)",Lipid,Steroid,,,0.016474338195732963,microbiome
+metabolite_100001743,5.0,0.01639569813093611,0.0,100001743,tryptophan betaine,Amino Acid,Tryptophan Metabolism,20671-76-5,C09213,0.01639569813093611,microbiome
+metabolite_100006641,16.0,0.015989594788144768,0.0,100006641,glycochenodeoxycholate 3-sulfate,Lipid,Primary Bile Acid Metabolism,,,0.015989594788144768,microbiome
+metabolite_100000437,3.0,0.015841353049743656,0.0,100000437,theophylline,Xenobiotics,Xanthine Metabolism,58-55-9,C07130,0.015841353049743656,microbiome
+metabolite_100000665,2.0,0.015706375850543575,0.0,100000665,docosahexaenoate (DHA; 22:6n3),Lipid,Polyunsaturated Fatty Acid (n3 and n6),6217-54-5,C06429,0.015706375850543575,microbiome
+metabolite_100004111,33.0,0.015673116840266954,0.0,100004111,4-methylcatechol sulfate,Xenobiotics,Benzoate Metabolism,,,0.015673116840266954,microbiome
+metabolite_100021728,5.0,0.015305966431461315,0.0,100021728,"cis-3,4-methyleneheptanoylcarnitine",Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)",,,0.015305966431461315,microbiome
+metabolite_100009225,4.0,0.01511687746540935,0.0,100009225,1-(1-enyl-stearoyl)-2-linoleoyl-GPE (P-18:0/18:2)*,Lipid,Plasmalogen,,,0.01511687746540935,microbiome
+metabolite_100001399,3.0,0.015099322359161782,0.0,100001399,"1,7-dimethylurate",Xenobiotics,Xanthine Metabolism,33868-03-0,C16356,0.015099322359161782,microbiome
+metabolite_1052,2.0,0.015083490275299316,0.0,1052,glycerate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",600-19-1,C00258,0.015083490275299316,microbiome
+metabolite_100020425,11.0,0.014790327424852978,0.0,100020425,1-carboxyethylleucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,0.014790327424852978,microbiome
+metabolite_922,20.0,0.0147835459943777,0.0,922,N-stearoyl-sphinganine (d18:0/18:0)*,Lipid,Sphingolipid Metabolism,2304-80-5,,0.0147835459943777,microbiome
+metabolite_100009143,12.0,0.01468280367283703,0.0,100009143,1-palmitoyl-2-adrenoyl-GPC (16:0/22:4)*,Lipid,Phospholipid Metabolism,,,0.01468280367283703,microbiome
+metabolite_100006644,1.0,0.004707127702223479,0.009854804813327234,100006644,taurodeoxycholic acid 3-sulfate,Lipid,Secondary Bile Acid Metabolism,,,0.014561932515550713,hybrid
+metabolite_100010930,17.0,0.014181527353108181,0.0,100010930,palmitoleoyl-linoleoyl-glycerol (16:1/18:2) [1]*,,,,,0.014181527353108181,microbiome
+metabolite_100000447,2.0,0.014094490417044914,0.0,100000447,gentisate,Amino Acid,Phenylalanine and Tyrosine Metabolism,490-79-9,C00628,0.014094490417044914,microbiome
+metabolite_100009027,12.0,0.0138901771556037,0.0,100009027,"sphingomyelin (d18:0/18:0, d19:0/17:0)*",Lipid,Sphingolipid Metabolism,,,0.0138901771556037,microbiome
+metabolite_100008999,4.0,0.013782921384941416,0.0,100008999,1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (P-18:0/20:4)*,Lipid,Plasmalogen,,,0.013782921384941416,microbiome
+metabolite_100020423,4.0,0.013510502825688775,0.0,100020423,1-carboxyethylvaline,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,0.013510502825688775,microbiome
+metabolite_132,1.0,0.013100993570702824,0.0,132,3-phosphoglycerate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",80731-10-8,C00597,0.013100993570702824,microbiome
+metabolite_100009009,11.0,0.012839233345025236,0.0,100009009,1-(1-enyl-palmitoyl)-2-linoleoyl-GPC (P-16:0/18:2)*,Lipid,Plasmalogen,,,0.012839233345025236,microbiome
+metabolite_100006295,2.0,0.012746775961797963,0.0,100006295,"sphingomyelin (d18:1/22:1, d18:2/22:0, d16:1/24:1)*",Lipid,Sphingolipid Metabolism,,,0.012746775961797963,microbiome
+metabolite_100009130,1.0,0.01264764099945459,0.0,100009130,1-oleoyl-2-docosahexaenoyl-GPC (18:1/22:6)*,Lipid,Phospholipid Metabolism,,,0.01264764099945459,microbiome
+metabolite_100010955,17.0,0.012567249855956253,0.0,100010955,perfluorooctanesulfonate (PFOS),Xenobiotics,Chemical,1763-23-1,C18142,0.012567249855956253,microbiome
+metabolite_100009015,7.0,0.012248587201564964,0.0,100009015,1-(1-enyl-stearoyl)-2-docosahexaenoyl-GPC (P-18:0/22:6)*,Lipid,Plasmalogen,,,0.012248587201564964,microbiome
+metabolite_100015683,13.0,0.011830355901357281,0.0,100015683,myristoyl-linoleoyl-glycerol (14:0/18:2) [1]*,Lipid,Diacylglycerol,,,0.011830355901357281,microbiome
+metabolite_100001106,1.0,0.01182671406485869,0.0,100001106,"1,3-dimethylurate",Xenobiotics,Xanthine Metabolism,944-73-0,,0.01182671406485869,microbiome
+metabolite_100000900,2.0,0.011791728265786672,0.0,100000900,iminodiacetate (IDA),Xenobiotics,Chemical,142-73-4,C19911,0.011791728265786672,microbiome
+metabolite_100015735,2.0,0.011640797374764755,0.0,100015735,"ceramide (d18:1/14:0, d16:1/16:0)*",Lipid,Ceramides,,,0.011640797374764755,microbiome
+metabolite_100008956,2.0,0.011635500400512755,0.0,100008956,"sphingomyelin (d18:2/23:0, d18:1/23:1, d17:1/24:1)*",Lipid,Sphingolipid Metabolism,,,0.011635500400512755,microbiome
+metabolite_563,7.0,0.011244645174234735,0.0,563,glutamine,Amino Acid,Glutamate Metabolism,56-85-9,C00064,0.011244645174234735,microbiome
+metabolite_100010940,23.0,0.011166096897006428,0.0,100010940,"diacylglycerol (16:1/18:2 [2], 16:0/18:3 [1])*",,,,,0.011166096897006428,microbiome
+metabolite_100008928,8.0,0.011115268232740783,0.0,100008928,2-hydroxybutyrate/2-hydroxyisobutyrate,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,0.011115268232740783,microbiome
+metabolite_363,2.0,0.011094783701221855,0.0,363,myo-inositol,Lipid,Inositol Metabolism,87-89-8,C00137,0.011094783701221855,microbiome
+metabolite_100001102,6.0,0.010780611813255514,0.0,100001102,dodecanedioate (C12-DC),Lipid,"Fatty Acid, Dicarboxylate",693-23-2,C02678,0.010780611813255514,microbiome
+metabolite_533,4.0,0.01056913368190393,0.0,533,urea,Amino Acid,Urea cycle; Arginine and Proline Metabolism,57-13-6,C00086,0.01056913368190393,microbiome
+metabolite_100005717,9.0,0.010555726142846833,0.0,100005717,1-palmitoyl-GPG (16:0)*,Lipid,Lysolipid,,,0.010555726142846833,microbiome
+metabolite_100000453,1.0,0.010373439519121064,0.0,100000453,paraxanthine,Xenobiotics,Xanthine Metabolism,611-59-6,C13747,0.010373439519121064,microbiome
+metabolite_100009055,17.0,0.010350311102433007,0.0,100009055,palmitoyl-linoleoyl-glycerol (16:0/18:2) [2]*,Lipid,Diacylglycerol,,,0.010350311102433007,microbiome
+metabolite_100001211,3.0,0.01024798356811829,0.0,100001211,sebacate (C10-DC),Lipid,"Fatty Acid, Dicarboxylate",111-20-6,C08277,0.01024798356811829,microbiome
+metabolite_100009004,7.0,0.010217571541806247,0.0,100009004,1-(1-enyl-stearoyl)-2-docosahexaenoyl-GPE (P-18:0/22:6)*,Lipid,Plasmalogen,,,0.010217571541806247,microbiome
+metabolite_1342,4.0,0.010145218735323036,0.0,1342,3-methoxytyrosine,Amino Acid,Phenylalanine and Tyrosine Metabolism,300-48-1,,0.010145218735323036,microbiome
+metabolite_100006726,1.0,0.010099238857753656,0.0,100006726,linoleoyl ethanolamide,Lipid,Endocannabinoid,68171-52-8,,0.010099238857753656,microbiome
+metabolite_100009134,24.0,0.009938183847086446,0.0,100009134,1-palmityl-2-linoleoyl-GPC (O-16:0/18:2)*,Lipid,Phospholipid Metabolism,,,0.009938183847086446,microbiome
+metabolite_240,3.0,0.009711222147658072,0.0,240,3-(4-hydroxyphenyl)lactate,Amino Acid,Phenylalanine and Tyrosine Metabolism,6482-98-0,C03672,0.009711222147658072,microbiome
+metabolite_100009142,2.0,0.009482062563958116,0.0,100009142,1-stearoyl-2-docosapentaenoyl-GPC (18:0/22:5n6)*,Lipid,Phospholipid Metabolism,,,0.009482062563958116,microbiome
+metabolite_100001383,4.0,0.009437667332901745,0.0,100001383,1-myristoyl-GPC (14:0),Lipid,Lysolipid,20559-16-4,C04230,0.009437667332901745,microbiome
+metabolite_100001456,2.0,0.009357345317460797,0.0,100001456,7-methylguanine,Nucleotide,"Purine Metabolism, Guanine containing",578-76-7,C02242,0.009357345317460797,microbiome
+metabolite_100001511,15.0,0.009308170021583129,0.0,100001511,1-palmitoleoyl-GPC (16:1)*,Lipid,Lysolipid,,,0.009308170021583129,microbiome
+metabolite_391,4.0,0.009253345618247977,0.0,391,citrulline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,372-75-8,C00327,0.009253345618247977,microbiome
+metabolite_100005371,1.0,0.009206614500203547,0.0,100005371,1-dihomo-linolenoyl-GPE (20:3n3 or 6)*,Lipid,Lysolipid,,,0.009206614500203547,microbiome
+metabolite_209,2.0,0.009192545415706355,0.0,209,adenosine 5'-monophosphate (AMP),Nucleotide,"Purine Metabolism, Adenine containing",149022-20-8,C00020,0.009192545415706355,microbiome
+metabolite_100001051,1.0,0.00917935442539708,0.0,100001051,1-methylhistidine,Amino Acid,Histidine Metabolism,332-80-9,C01152,0.00917935442539708,microbiome
+metabolite_100001181,13.0,0.00910886988255688,0.0,100001181,docosapentaenoate (n3 DPA; 22:5n3),Lipid,Polyunsaturated Fatty Acid (n3 and n6),2234-74-4,C16513,0.00910886988255688,microbiome
+metabolite_100001541,3.0,0.009046013835291244,0.0,100001541,2-hydroxy-3-methylvalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",488-15-3,,0.009046013835291244,microbiome
+metabolite_100000036,3.0,0.008923290367183645,0.0,100000036,3-methyl-2-oxovalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",1460-34-0;51829-07-3,C00671,0.008923290367183645,microbiome
+metabolite_100002990,8.0,0.008837073890428204,0.0,100002990,oleoyl-linoleoyl-glycerol (18:1/18:2) [2],Lipid,Diacylglycerol,104346-53-4,,0.008837073890428204,microbiome
+metabolite_100001296,3.0,0.008640968949484074,0.0,100001296,stachydrine,Xenobiotics,Food Component/Plant,4136-37-2,C10172,0.008640968949484074,microbiome
+metabolite_100000706,4.0,0.008569371748453292,0.0,100000706,alpha-hydroxyisocaproate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",10303-64-7,C03264,0.008569371748453292,microbiome
+metabolite_100002028,6.0,0.008554548569513432,0.0,100002028,"androstenediol (3beta,17beta) monosulfate (1)",Lipid,Steroid,521-17-5,,0.008554548569513432,microbiome
+metabolite_100008957,1.0,0.008472539459019823,0.0,100008957,"sphingomyelin (d18:2/24:1, d18:1/24:2)*",Lipid,Sphingolipid Metabolism,,,0.008472539459019823,microbiome
+metabolite_1628,27.0,0.008415905291833115,0.0,1628,glycochenodeoxycholate,Lipid,Primary Bile Acid Metabolism,16564-43-5,C05466,0.008415905291833115,microbiome
+metabolite_100015596,2.0,0.008275565749282121,0.0,100015596,1-(1-enyl-stearoyl)-2-docosapentaenoyl-GPE (P-18:0/22:5n3)*,Lipid,Plasmalogen,,,0.008275565749282121,microbiome
+metabolite_100020487,3.0,0.008208977743519807,0.0,100020487,N-acetyl-isoputreanine,Amino Acid,Polyamine Metabolism,,,0.008208977743519807,microbiome
+metabolite_1128,3.0,0.00817421888509573,0.0,1128,2-aminobutyrate,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",1492-24-6,C02261,0.00817421888509573,microbiome
+metabolite_100010918,6.0,0.008148486236394192,0.0,100010918,oleoyl-oleoyl-glycerol (18:1/18:1)  [1]*,Lipid,Diacylglycerol,,,0.008148486236394192,microbiome
+metabolite_1001,2.0,0.008021901995750258,0.0,1001,trans-4-hydroxyproline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,51-35-4,C01157,0.008021901995750258,microbiome
+metabolite_100015962,1.0,0.00794225509760449,0.0,100015962,"N,N,N-trimethyl-5-aminovalerate",Amino Acid,Lysine Metabolism,,,0.00794225509760449,microbiome
+metabolite_100021000,18.0,0.007934683350465654,0.0,100021000,hydroxypalmitoyl sphingomyelin (d18:1/16:0(OH))**,Lipid,Sphingomyelins,,,0.007934683350465654,microbiome
+metabolite_1004,3.0,0.00791598390551107,0.0,1004,xanthine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",69-89-6,C00385,0.00791598390551107,microbiome
+metabolite_100008955,2.0,0.00789409989284906,0.0,100008955,tricosanoyl sphingomyelin (d18:1/23:0)*,Lipid,Sphingolipid Metabolism,,,0.00789409989284906,microbiome
+metabolite_100009219,6.0,0.005307271279643921,0.0025762398840279976,100009219,1-oleoyl-2-arachidonoyl-GPE (18:1/20:4)*,,,,,0.007883511163671919,hybrid
+metabolite_100009146,16.0,0.007718788347249483,0.0,100009146,1-stearoyl-2-adrenoyl-GPC (18:0/22:4)*,,,,,0.007718788347249483,microbiome
+metabolite_100008917,6.0,0.007609621829993918,0.0,100008917,1-(1-enyl-stearoyl)-2-oleoyl-GPC (P-18:0/18:1),Lipid,Plasmalogen,799268-63-6,,0.007609621829993918,microbiome
+metabolite_1094,2.0,0.007517280421284633,0.0,1094,thyroxine,Amino Acid,Phenylalanine and Tyrosine Metabolism,51-48-9,C01829,0.007517280421284633,microbiome
+metabolite_100020241,2.0,0.007434240715187057,0.0,100020241,gamma-glutamylcitrulline*,Peptide,Gamma-glutamyl Amino Acid,,,0.007434240715187057,microbiome
+metabolite_100006065,5.0,0.007385712537082534,0.0,100006065,cyclo(pro-val),Peptide,Dipeptide,2854-40-2,,0.007385712537082534,microbiome
+metabolite_100001956,2.0,0.0073029768950918506,0.0,100001956,N-methylproline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,475-11-6,,0.0073029768950918506,microbiome
+metabolite_100001563,2.0,0.007140877148872016,0.0,100001563,2-myristoyl-GPC (14:0)*,Lipid,Lysolipid,,,0.007140877148872016,microbiome
+metabolite_100002871,4.0,0.007136504858326731,0.0,100002871,1-adrenoyl-GPC (22:4)*,Lipid,Lysolipid,,,0.007136504858326731,microbiome
+metabolite_100008930,2.0,0.007132743190004787,0.0,100008930,oleate/vaccenate (18:1),Lipid,Long Chain Fatty Acid,,,0.007132743190004787,microbiome
+metabolite_297,4.0,0.0070951274981667645,0.0,297,sphingosine,Lipid,Sphingolipid Metabolism,123-78-4,C00319,0.0070951274981667645,microbiome
+metabolite_100015971,6.0,0.007066293717550742,0.0,100015971,cortolone glucuronide (1),Lipid,Corticosteroids,,,0.007066293717550742,microbiome
+metabolite_100006121,1.0,0.006969274430200678,0.0,100006121,1-dihomo-linolenylglycerol (20:3),Lipid,Monoacylglycerol,,,0.006969274430200678,microbiome
+metabolite_100009019,3.0,0.006957567783458685,0.0,100009019,1-stearyl-2-arachidonoyl-GPC (O-18:0/20:4)*,Lipid,Phospholipid Metabolism,,,0.006957567783458685,microbiome
+metabolite_100006435,2.0,0.006944359214945295,0.0,100006435,N-acetylglucosamine/N-acetylgalactosamine,Carbohydrate,Aminosugar Metabolism,,,0.006944359214945295,microbiome
+metabolite_100001229,5.0,0.00693287044167723,0.0,100001229,stearidonate (18:4n3),Lipid,Polyunsaturated Fatty Acid (n3 and n6),111174-40-4,C16300,0.00693287044167723,microbiome
+metabolite_100009141,4.0,0.006909266220277099,0.0,100009141,1-stearoyl-2-docosapentaenoyl-GPC (18:0/22:5n3)*,Lipid,Phospholipid Metabolism,,,0.006909266220277099,microbiome
+metabolite_100000672,3.0,0.006885038027654722,0.0,100000672,1-myristoyl-2-palmitoyl-GPC (14:0/16:0),Lipid,Phospholipid Metabolism,69525-80-0,,0.006885038027654722,microbiome
+metabolite_100020492,4.0,0.006767632770787735,0.0,100020492,glucuronide of piperine metabolite C17H21NO3 (4)*,Xenobiotics,Food Component/Plant,,,0.006767632770787735,microbiome
+metabolite_100021208,12.0,0.006601335189256985,0.0,100021208,4-vinylcatechol sulfate,Xenobiotics,Benzoate Metabolism,,,0.006601335189256985,microbiome
+metabolite_100001674,7.0,0.0065956139597955765,0.0,100001674,2-arachidonoyl-GPE (20:4)*,Lipid,Lysolipid,,,0.0065956139597955765,microbiome
+metabolite_62,1.0,0.006582126488555162,0.0,62,"12,13-DiHOME",Lipid,"Fatty Acid, Dihydroxy",263399-35-5,C14829,0.006582126488555162,microbiome
+metabolite_100001314,1.0,0.00655040875276558,0.0,100001314,gamma-glutamylthreonine,Peptide,Gamma-glutamyl Amino Acid,5652-48-2,,0.00655040875276558,microbiome
+metabolite_100001668,1.0,0.006340345324024499,0.0,100001668,1-ribosyl-imidazoleacetate*,Amino Acid,Histidine Metabolism,29605-99-0,C05131,0.006340345324024499,microbiome
+metabolite_100008984,8.0,0.006257928645737931,0.0,100008984,1-palmitoyl-2-palmitoleoyl-GPC (16:0/16:1)*,Lipid,Phospholipid Metabolism,,,0.006257928645737931,microbiome
+metabolite_100015833,2.0,0.006212942018602452,0.0,100015833,arachidoylcarnitine (C20)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.006212942018602452,microbiome
+metabolite_535,4.0,0.006159074153641697,0.0,535,uridine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",58-96-8,C00299,0.006159074153641697,microbiome
+metabolite_100015593,13.0,0.006135126112579603,0.0,100015593,1-stearoyl-2-docosapentaenoyl-GPE (18:0/22:5n6)*,Lipid,Phospholipid Metabolism,,,0.006135126112579603,microbiome
+metabolite_796,4.0,0.006120231693894085,0.0,796,alpha-ketobutyrate,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",600-18-0,C00109,0.006120231693894085,microbiome
+metabolite_100001391,3.0,0.00594243503383729,0.0,100001391,stearoylcarnitine (C18),Lipid,Fatty Acid Metabolism(Acyl Carnitine),18822-91-8,,0.00594243503383729,microbiome
+metabolite_100002199,2.0,0.0058843736337438335,0.0,100002199,tridecenedioate (C13:1-DC)*,Lipid,"Fatty Acid, Dicarboxylate",,,0.0058843736337438335,microbiome
+metabolite_1024,9.0,0.005883925097174614,0.0,1024,pantothenate,Cofactors and Vitamins,Pantothenate and CoA Metabolism,137-08-6,C00864,0.005883925097174614,microbiome
+metabolite_100009021,7.0,0.005876764130530288,0.0,100009021,1-palmityl-2-arachidonoyl-GPC (O-16:0/20:4)*,Lipid,Phospholipid Metabolism,,,0.005876764130530288,microbiome
+metabolite_1648,1.0,0.005875992528101337,0.0,1648,taurocholate,Lipid,Primary Bile Acid Metabolism,145-42-6,C05122,0.005875992528101337,microbiome
+metabolite_799,2.0,0.005771415590084761,0.0,799,betaine,Amino Acid,"Glycine, Serine and Threonine Metabolism",107-43-7,C00719,0.005771415590084761,microbiome
+metabolite_1221,7.0,0.005734253006982493,0.0,1221,creatine,Amino Acid,Creatine Metabolism,57-00-1,C00300,0.005734253006982493,microbiome
+metabolite_100009052,9.0,0.00565768276704004,0.0,100009052,palmitoyl-linoleoyl-glycerol (16:0/18:2) [1]*,Lipid,Diacylglycerol,,,0.00565768276704004,microbiome
+metabolite_100003470,10.0,0.005547294677861192,0.0,100003470,pregnanediol-3-glucuronide,Lipid,Steroid,1852-49-9,,0.005547294677861192,microbiome
+metabolite_100010941,2.0,0.0055235478265469595,0.0,100010941,linoleoyl-linoleoyl-glycerol (18:2/18:2) [1]*,,,,,0.0055235478265469595,microbiome
+metabolite_100009347,7.0,0.005499390201289089,0.0,100009347,"phosphatidylcholine (15:0/18:1, 17:0/16:1, 16:0/17:1)*",Lipid,Phospholipid Metabolism,,,0.005499390201289089,microbiome
+metabolite_100001121,2.0,0.005482035489148385,0.0,100001121,pyridoxate,Cofactors and Vitamins,Vitamin B6 Metabolism,82-82-6,C00847,0.005482035489148385,microbiome
+metabolite_100000406,1.0,0.0053776167107457695,0.0,100000406,ribitol,Carbohydrate,Pentose Metabolism,488-81-3,C00474,0.0053776167107457695,microbiome
+metabolite_100006298,4.0,0.005349200627451589,0.0,100006298,lignoceroyl sphingomyelin (d18:1/24:0),Lipid,Sphingolipid Metabolism,60037-60-7,,0.005349200627451589,microbiome
+metabolite_503,3.0,0.005327398117581983,0.0,503,serine,Amino Acid,"Glycine, Serine and Threonine Metabolism",56-45-1,C00065,0.005327398117581983,microbiome
+metabolite_1140,2.0,0.005141286207439144,0.0,1140,gamma-glutamylglutamine,Peptide,Gamma-glutamyl Amino Acid,10148-81-9,C05283,0.005141286207439144,microbiome
+metabolite_100001552,1.0,0.005124662356721488,0.0,100001552,1-dihomo-linolenoyl-GPC (20:3n3 or 6)*,Lipid,Lysolipid,,,0.005124662356721488,microbiome
+metabolite_1083,3.0,0.005108358680682379,0.0,1083,N-acetylmethionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",65-82-7,C02712,0.005108358680682379,microbiome
+metabolite_100001112,2.0,0.0050321193962009625,0.0,100001112,3-hydroxylaurate,Lipid,"Fatty Acid, Monohydroxy",53941-38-1,,0.0050321193962009625,microbiome
+metabolite_100020409,2.0,0.005002746274046177,0.0,100020409,ascorbic acid 3-sulfate*,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,,,0.005002746274046177,microbiome
+metabolite_100001553,1.0,0.004945050872730783,0.0,100001553,1-dihomo-linoleoyl-GPC (20:2)*,Lipid,Lysolipid,,,0.004945050872730783,microbiome
+metabolite_344,1.0,0.004670973514780741,0.0,344,guanidinoacetate,Amino Acid,Creatine Metabolism,352-97-6,C00581,0.004670973514780741,microbiome
+metabolite_231,1.0,0.004620998290433831,1.4444883062569858e-05,231,arginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,1119-34-2,C00062,0.004635443173496401,microbiome
+metabolite_100015840,6.0,0.004587882031211632,0.0,100015840,dihomo-linolenoylcarnitine (C20:3n3 or 6)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.004587882031211632,microbiome
+metabolite_100015586,2.0,0.0045687302151735665,0.0,100015586,1-palmityl-2-palmitoyl-GPC (O-16:0/16:0)*,Lipid,Phospholipid Metabolism,,,0.0045687302151735665,microbiome
+metabolite_194,1.0,0.0045291480930049755,0.0,194,N-formylmethionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",4289-98-9,C03145,0.0045291480930049755,microbiome
+metabolite_234,7.0,0.004492305203604885,0.0,234,aspartate,Amino Acid,Alanine and Aspartate Metabolism,56-84-8,C00049,0.004492305203604885,microbiome
+metabolite_100006293,3.0,0.004438743408612056,0.0,100006293,"sphingomyelin (d18:1/20:2, d18:2/20:1, d16:1/22:2)*",Lipid,Sphingolipid Metabolism,,,0.004438743408612056,microbiome
+metabolite_572,1.0,0.0029338034797363743,0.0014263676512441537,572,glucose,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",50-99-7,C00031,0.004360171130980528,hybrid
+metabolite_100001501,6.0,0.004345235989188123,0.0,100001501,oleoylcarnitine (C18:1),Lipid,Fatty Acid Metabolism(Acyl Carnitine),38677-66-6,,0.004345235989188123,microbiome
+metabolite_100001384,2.0,0.004334801276213995,0.0,100001384,1-arachidoyl-GPC (20:0),Lipid,Lysolipid,108341-80-6,C04230,0.004334801276213995,microbiome
+metabolite_100020833,2.0,0.004311301294349867,0.0,100020833,2-ketocaprylate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",328-51-8,,0.004311301294349867,microbiome
+metabolite_100000743,1.0,0.004310484413619253,5.71699411144877e-08,100000743,2-hydroxyoctanoate,Lipid,"Fatty Acid, Monohydroxy",617-73-2,,0.004310541583560368,microbiome
+metabolite_100001662,1.0,0.004297161334048338,0.0,100001662,deoxycarnitine,Lipid,Carnitine Metabolism,6249-56-5,C01181,0.004297161334048338,microbiome
+metabolite_100000846,2.0,8.522687454437516e-06,0.004199061795899461,100000846,erythritol,Xenobiotics,Food Component/Plant,149-32-6,C00503,0.004207584483353899,genetics
+metabolite_100020361,1.0,0.0041604204063814265,0.0,100020361,3-amino-2-piperidone,Amino Acid,Urea cycle; Arginine and Proline Metabolism,1892-22-4,,0.0041604204063814265,microbiome
+metabolite_100001300,4.0,0.004019256522104997,0.0,100001300,alpha-hydroxyisovalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",600-37-3,,0.004019256522104997,microbiome
+metabolite_100000265,2.0,0.003969914569079136,0.0,100000265,kynurenine,Amino Acid,Tryptophan Metabolism,2922-83-0,C00328,0.003969914569079136,microbiome
+metabolite_100000463,1.0,0.003957245324635705,0.0,100000463,indolelactate,Amino Acid,Tryptophan Metabolism,832-97-3,C02043,0.003957245324635705,microbiome
+metabolite_1025,3.0,0.0038762226401846123,0.0,1025,pipecolate,Amino Acid,Lysine Metabolism,4043-87-2,C00408,0.0038762226401846123,microbiome
+metabolite_100001755,2.0,0.003816311790065141,0.0,100001755,4-vinylphenol sulfate,Xenobiotics,Benzoate Metabolism,2628-17-3,C05627,0.003816311790065141,microbiome
+metabolite_1053,1.0,0.003803876587806454,0.0,1053,3-ureidopropionate,Nucleotide,"Pyrimidine Metabolism, Uracil containing",462-88-4,C02642,0.003803876587806454,microbiome
+metabolite_100008903,6.0,0.0037399966649541705,0.0,100008903,"1,2-dilinoleoyl-GPC (18:2/18:2)",Lipid,Phospholipid Metabolism,998-06-1,,0.0037399966649541705,microbiome
+metabolite_100020414,1.0,0.0037212173228955425,0.0,100020414,6-bromotryptophan,Amino Acid,Tryptophan Metabolism,,,0.0037212173228955425,microbiome
+metabolite_100009028,2.0,0.0037034430703194454,0.0,100009028,N-palmitoyl-sphinganine (d18:0/16:0),Lipid,Sphingolipid Metabolism,5966-29-0,,0.0037034430703194454,microbiome
+metabolite_100009125,4.0,0.003697263076508195,0.0,100009125,1-margaroyl-2-docosahexaenoyl-GPC (17:0/22:6)*,Lipid,Phospholipid Metabolism,,,0.003697263076508195,microbiome
+metabolite_1528,5.0,0.003659664006199881,0.0,1528,1-palmitoyl-2-linoleoyl-GPI (16:0/18:2),Lipid,Phospholipid Metabolism,,,0.003659664006199881,microbiome
+metabolite_504,4.0,0.0036435248208752657,0.0,504,serotonin,Amino Acid,Tryptophan Metabolism,153-98-0,C00780,0.0036435248208752657,microbiome
+metabolite_358,2.0,0.003635338944733557,0.0,358,hypotaurine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",300-84-5,C00519,0.003635338944733557,microbiome
+metabolite_100010966,1.0,0.0035695368664865335,0.0,100010966,1-palmityl-2-stearoyl-GPC (O-16:0/18:0)*,,,,,0.0035695368664865335,microbiome
+metabolite_100009007,19.0,0.0035329207292370546,0.0,100009007,1-(1-enyl-palmitoyl)-2-oleoyl-GPC (P-16:0/18:1)*,Lipid,Plasmalogen,,,0.0035329207292370546,microbiome
+metabolite_1023,4.0,0.0035152005985391588,0.0,1023,sarcosine,Amino Acid,"Glycine, Serine and Threonine Metabolism",107-97-1,C00213,0.0035152005985391588,microbiome
+metabolite_100015737,4.0,0.003460487192012973,0.0,100015737,"ceramide (d18:1/17:0, d17:1/18:0)*",Lipid,Ceramides,,,0.003460487192012973,microbiome
+metabolite_100000551,2.0,0.0033906596562705005,0.0,100000551,4-methyl-2-oxopentanoate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",816-66-0,C00233,0.0033906596562705005,microbiome
+metabolite_100001994,3.0,0.00338247416663906,0.0,100001994,"androstenediol (3beta,17beta) disulfate (2)",Lipid,Steroid,,C04295,0.00338247416663906,microbiome
+metabolite_100004329,3.0,0.0033031777052352496,0.0,100004329,"sphingomyelin (d18:2/16:0, d18:1/16:1)*",Lipid,Sphingolipid Metabolism,,,0.0033031777052352496,microbiome
+metabolite_100001856,1.0,0.003262926631880103,0.0,100001856,1-stearoyl-2-oleoyl-GPE (18:0/18:1),Lipid,Phospholipid Metabolism,,,0.003262926631880103,microbiome
+metabolite_100009026,6.0,0.0032056696028500697,0.0,100009026,behenoyl dihydrosphingomyelin (d18:0/22:0)*,Lipid,Sphingolipid Metabolism,,,0.0032056696028500697,microbiome
+metabolite_100015625,6.0,0.0031930191886279102,0.0,100015625,glycosyl-N-behenoyl-sphingadienine (d18:2/22:0)*,Lipid,Ceramides,,,0.0031930191886279102,microbiome
+metabolite_100016069,1.0,0.0031735879364330755,0.0,100016069,5-dodecenoylcarnitine (C12:1),Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.0031735879364330755,microbiome
+metabolite_100010919,7.0,0.0031579429034682693,0.0,100010919,oleoyl-oleoyl-glycerol (18:1/18:1) [2]*,Lipid,Diacylglycerol,,,0.0031579429034682693,microbiome
+metabolite_100008994,3.0,0.003155326126432212,0.0,100008994,1-stearoyl-2-linoleoyl-GPI (18:0/18:2),Lipid,Phospholipid Metabolism,,,0.003155326126432212,microbiome
+metabolite_849,2.0,0.003122208201144283,0.0,849,caffeine,Xenobiotics,Xanthine Metabolism,58-08-2,C07481,0.003122208201144283,microbiome
+metabolite_100002014,15.0,0.0030837151995095624,0.0,100002014,"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)",Lipid,Steroid,,,0.0030837151995095624,microbiome
+metabolite_1526,11.0,0.0030723082993546758,0.0,1526,1-palmitoyl-2-oleoyl-GPE (16:0/18:1),Lipid,Phospholipid Metabolism,26662-94-2,,0.0030723082993546758,microbiome
+metabolite_100004542,3.0,0.0030047287788325105,0.0,100004542,2-aminoheptanoate,Lipid,"Fatty Acid, Amino",1115-90-8,,0.0030047287788325105,microbiome
+metabolite_100004054,6.0,0.002926855140395701,0.0,100004054,margaroylcarnitine (C17)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),106182-29-0,,0.002926855140395701,microbiome
+metabolite_100005986,2.0,0.00292368194788839,0.0,100005986,"sphingomyelin (d18:1/24:1, d18:2/24:0)*",Lipid,Sphingolipid Metabolism,94359-13-4,,0.00292368194788839,microbiome
+metabolite_100021131,1.0,0.0023317899167559775,0.0005348540115801548,100021131,undecenoylcarnitine (C11:1),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)",,,0.0028666439283361322,hybrid
+metabolite_100005384,2.0,0.0028628097961344023,0.0,100005384,O-sulfo-L-tyrosine,Xenobiotics,Chemical,,,0.0028628097961344023,microbiome
+metabolite_1231,6.0,0.002838542480652073,0.0,1231,dihomo-linoleate (20:2n6),Lipid,Polyunsaturated Fatty Acid (n3 and n6),2091-39-6,C16525,0.002838542480652073,microbiome
+metabolite_407,1.0,0.002715564175673313,0.0,407,lysine,Amino Acid,Lysine Metabolism,56-87-1,C00047,0.002715564175673313,microbiome
+metabolite_100004635,3.0,0.0026882781550026102,0.0,100004635,methionine sulfone,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",820-10-0,,0.0026882781550026102,microbiome
+metabolite_100001550,1.0,0.0026808094004483474,0.0,100001550,homostachydrine*,Xenobiotics,Food Component/Plant,1195-94-4,C08283,0.0026808094004483474,microbiome
+metabolite_100002784,1.0,0.0026644006458971248,0.0,100002784,2-oxoarginine*,,,10/4/15,C03771,0.0026644006458971248,microbiome
+metabolite_100002989,6.0,0.0026488910458434267,0.0,100002989,oleoyl-linoleoyl-glycerol (18:1/18:2) [1],Lipid,Diacylglycerol,106292-55-1,,0.0026488910458434267,microbiome
+metabolite_811,7.0,0.002576753650993968,0.0,811,alanine,Amino Acid,Alanine and Aspartate Metabolism,56-41-7,C00041,0.002576753650993968,microbiome
+metabolite_100008998,1.0,0.0025360117895734113,0.0,100008998,gamma-tocopherol/beta-tocopherol,Cofactors and Vitamins,Tocopherol Metabolism,,,0.0025360117895734113,microbiome
+metabolite_100000827,2.0,0.0025219397530595877,0.0,100000827,1-palmitoylglycerol (16:0),Lipid,Monoacylglycerol,542-44-9,,0.0025219397530595877,microbiome
+metabolite_100009066,2.0,0.0025155617146347398,0.0,100009066,1-palmitoyl-2-oleoyl-GPI (16:0/18:1)*,Lipid,Phospholipid Metabolism,,,0.0025155617146347398,microbiome
+metabolite_100021727,3.0,0.0025018887923931032,0.0,100021727,"cis-3,4-methyleneheptanoate",Lipid,"Fatty Acid, Branched",,,0.0025018887923931032,microbiome
+metabolite_100009037,1.0,0.0025017759813382723,0.0,100009037,1-margaroyl-2-linoleoyl-GPC (17:0/18:2)*,Lipid,Phospholipid Metabolism,,,0.0025017759813382723,microbiome
+metabolite_100009232,1.0,0.002498303067107077,0.0,100009232,thioproline,Amino Acid,Tryptophan Metabolism,34592-47-4,,0.002498303067107077,microbiome
+metabolite_461,1.0,0.00012010583059551827,0.0023656018512082655,461,phosphate,Energy,Oxidative Phosphorylation,7664-38-2,C00009,0.0024857076818037838,hybrid
+metabolite_100003397,17.0,0.002474563905844107,0.0,100003397,trimethylamine N-oxide,Lipid,Phospholipid Metabolism,1184-78-7,C01104,0.002474563905844107,microbiome
+metabolite_100001468,9.0,0.0024202333381733165,0.0,100001468,N1-Methyl-2-pyridone-5-carboxamide,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,701-44-0,C05842,0.0024202333381733165,microbiome
+metabolite_100001569,5.0,0.0023516291370723197,0.0,100001569,1-oleoyl-GPE (18:1),Lipid,Lysolipid,89576-29-4,,0.0023516291370723197,microbiome
+metabolite_100015788,3.0,0.00227108528159381,0.0,100015788,sphingomyelin (d18:2/18:1)*,Lipid,Sphingolipid Metabolism,,,0.00227108528159381,microbiome
+metabolite_100001335,3.0,0.002269589885776968,0.0,100001335,eicosenoate (20:1),Lipid,Long Chain Fatty Acid,,C16526,0.002269589885776968,microbiome
+metabolite_100019884,5.0,0.0022436096215791013,0.0,100019884,trans-2-hexenoylglycine,Lipid,Fatty Acid Metabolism(Acyl Glycine),,,0.0022436096215791013,microbiome
+metabolite_100019794,1.0,0.0022287194120120812,0.0,100019794,hydroxy-CMPF*,Lipid,"Fatty Acid, Dicarboxylate",,,0.0022287194120120812,microbiome
+metabolite_100005834,1.0,0.0022059528835738362,0.0,100005834,9-hydroxystearate,Lipid,"Fatty Acid, Monohydroxy",25498-28-6,,0.0022059528835738362,microbiome
+metabolite_100000963,1.0,0.0022047059707989147,0.0,100000963,homocitrulline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,1190-49-4,C02427,0.0022047059707989147,microbiome
+metabolite_100001262,2.0,0.0021539240140846516,0.0,100001262,gamma-glutamyl-epsilon-lysine,Peptide,Gamma-glutamyl Amino Acid,17105-15-6,,0.0021539240140846516,microbiome
+metabolite_100005466,3.0,0.0021318382134538627,0.0,100005466,N-acetyltaurine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,0.0021318382134538627,microbiome
+metabolite_100001193,5.0,0.001998587679759578,0.0,100001193,adrenate (22:4n6),Lipid,Polyunsaturated Fatty Acid (n3 and n6),2091-25-0,C16527,0.001998587679759578,microbiome
+metabolite_100009035,2.0,0.0019497451012561173,0.0,100009035,1-pentadecanoyl-2-linoleoyl-GPC (15:0/18:2)*,Lipid,Phospholipid Metabolism,,,0.0019497451012561173,microbiome
+metabolite_100001461,6.0,0.0019466121644057255,0.0,100001461,1-stearoyl-GPE (18:0),Lipid,Lysolipid,69747-55-3,,0.0019466121644057255,microbiome
+metabolite_100009343,5.0,0.001938676132084427,0.0,100009343,1-linoleoyl-2-linolenoyl-GPC (18:2/18:3)*,Lipid,Phospholipid Metabolism,,,0.001938676132084427,microbiome
+metabolite_100020234,1.0,0.0019365273684852635,0.0,100020234,pyroglutamylleucine*,Peptide,Modified Peptides,,,0.0019365273684852635,microbiome
+metabolite_100001540,1.0,0.0018984096549862217,0.0,100001540,pyroglutamine*,Amino Acid,Glutamate Metabolism,2353-44-8,,0.0018984096549862217,microbiome
+metabolite_100003926,7.0,0.0018832612958130657,0.0,100003926,(R)-3-hydroxybutyrylcarnitine,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.0018832612958130657,microbiome
+metabolite_100000787,2.0,0.0018746190142088226,0.0,100000787,N-acetylaspartate (NAA),Amino Acid,Alanine and Aspartate Metabolism,997-55-7;997-55-7,C01042,0.0018746190142088226,microbiome
+metabolite_100001757,1.0,0.0018422871978105437,0.0,100001757,thymol sulfate,Xenobiotics,Food Component/Plant,89-83-8,C09908,0.0018422871978105437,microbiome
+metabolite_100001988,8.0,0.0018173765975401102,0.0,100001988,"5alpha-pregnan-3beta,20alpha-diol disulfate",Lipid,Steroid,,,0.0018173765975401102,microbiome
+metabolite_100009181,3.0,0.001775874941551847,0.0,100009181,1-stearoyl-2-oleoyl-GPI (18:0/18:1)*,Lipid,Phospholipid Metabolism,,,0.001775874941551847,microbiome
+metabolite_100001567,7.0,0.0017677701417854186,0.0,100001567,1-palmitoyl-GPE (16:0),Lipid,Lysolipid,53862-35-4,,0.0017677701417854186,microbiome
+metabolite_302,7.0,0.00175865166657041,0.0,302,deoxycholate,Lipid,Secondary Bile Acid Metabolism,83-44-3,C04483,0.00175865166657041,microbiome
+metabolite_2050,8.0,0.0017334703196316692,0.0,2050,eicosapentaenoate (EPA; 20:5n3),Lipid,Polyunsaturated Fatty Acid (n3 and n6),10-2005-9;10417-94-4,C06428,0.0017334703196316692,microbiome
+metabolite_100015789,2.0,0.001720179411975109,0.0,100015789,sphingomyelin (d18:2/24:2)*,Lipid,Sphingolipid Metabolism,,,0.001720179411975109,microbiome
+metabolite_1539,3.0,0.001696920033120053,0.0,1539,1-palmitoyl-2-oleoyl-GPC (16:0/18:1),Lipid,Phospholipid Metabolism,26853-31-6;26853-31-6,,0.001696920033120053,microbiome
+metabolite_100009123,1.0,0.001624546062429233,0.0,100009123,1-pentadecanoyl-2-docosahexaenoyl-GPC (15:0/22:6)*,Lipid,Phospholipid Metabolism,,,0.001624546062429233,microbiome
+metabolite_330,1.0,0.0016222174336200101,0.0,330,fumarate,Energy,TCA Cycle,100-17-8,C00122,0.0016222174336200101,microbiome
+metabolite_100006379,1.0,0.001617896956573106,0.0,100006379,C-glycosyltryptophan,Amino Acid,Tryptophan Metabolism,180509-18-6,,0.001617896956573106,microbiome
+metabolite_100005352,5.0,0.0015961035496464548,0.0,100005352,1-eicosenoyl-GPC (20:1)*,Lipid,Lysolipid,,,0.0015961035496464548,microbiome
+metabolite_100001337,2.0,0.001586043882000454,0.0,100001337,linolenate [alpha or gamma; (18:3n3 or 6)],Lipid,Polyunsaturated Fatty Acid (n3 and n6),,C06426,0.001586043882000454,microbiome
+metabolite_1111,1.0,0.001560961863019461,0.0,1111,vanillylmandelate (VMA),Amino Acid,Phenylalanine and Tyrosine Metabolism,55-10-7,C05584,0.001560961863019461,microbiome
+metabolite_100009138,3.0,0.0015541646051122626,0.0,100009138,1-myristoyl-2-linoleoyl-GPC (14:0/18:2)*,Lipid,Phospholipid Metabolism,,,0.0015541646051122626,microbiome
+metabolite_100009030,5.0,0.0015534762393165646,0.0,100009030,lactosyl-N-palmitoyl-sphingosine (d18:1/16:0),Lipid,Sphingolipid Metabolism,4201-62-1,,0.0015534762393165646,microbiome
+metabolite_182,1.0,0.0014680375894348119,0.0,182,quinolinate,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,89-00-9,C03722,0.0014680375894348119,microbiome
+metabolite_278,3.0,0.0014639286192208445,0.0,278,cysteinylglycine,Amino Acid,Glutathione Metabolism,19246-18-5,C01419,0.0014639286192208445,microbiome
+metabolite_512,1.0,0.0014460273683369884,0.0,512,taurine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",107-35-7,C00245,0.0014460273683369884,microbiome
+metabolite_1002,1.0,0.001437814124775727,0.0,1002,allantoin,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",97-59-6,C02350,0.001437814124775727,microbiome
+metabolite_100015790,2.0,0.0014273281278095462,0.0,100015790,"sphingomyelin (d18:2/21:0, d16:2/23:0)*",Lipid,Sphingolipid Metabolism,,,0.0014273281278095462,microbiome
+metabolite_189,2.0,0.0013790374082273127,0.0,189,"N6,N6,N6-trimethyllysine",Amino Acid,Lysine Metabolism,23284-33-5,C03793,0.0013790374082273127,microbiome
+metabolite_100015838,3.0,0.0013744903275403342,0.0,100015838,eicosenoylcarnitine (C20:1)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.0013744903275403342,microbiome
+metabolite_180,3.0,0.0013688221804064593,0.0,180,linoleate (18:2n6),Lipid,Polyunsaturated Fatty Acid (n3 and n6),60-33-3,C01595,0.0013688221804064593,microbiome
+metabolite_100000626,2.0,0.001365617995894186,0.0,100000626,sphingosine 1-phosphate,Lipid,Sphingolipid Metabolism,26993-30-6,C06124,0.001365617995894186,microbiome
+metabolite_100001270,10.0,0.0013524159160369642,0.0,100001270,myristoylcarnitine (C14),Lipid,Fatty Acid Metabolism(Acyl Carnitine),18822-89-4,,0.0013524159160369642,microbiome
+metabolite_1489,1.0,0.0013415369468170457,0.0,1489,palmitoyl ethanolamide,Lipid,Endocannabinoid,544-31-0,C16512,0.0013415369468170457,microbiome
+metabolite_491,1.0,0.0008594177858185503,0.0004700101049255334,491,pyridoxal,Cofactors and Vitamins,Vitamin B6 Metabolism,65-22-5,C00250,0.0013294278907440837,hybrid
+metabolite_100002458,1.0,0.0013083233413311302,0.0,100002458,3-methylglutaconate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",5746-90-7,,0.0013083233413311302,microbiome
+metabolite_100005985,1.0,0.0012895718174196213,0.0,100005985,"sphingomyelin (d18:2/14:0, d18:1/14:1)*",Lipid,Sphingolipid Metabolism,,,0.0012895718174196213,microbiome
+metabolite_100002514,5.0,0.001289459090043632,0.0,100002514,hydantoin-5-propionate,Amino Acid,Histidine Metabolism,5624-26-0,C05565,0.001289459090043632,microbiome
+metabolite_100001413,8.0,0.0012811916571738857,0.0,100001413,N4-acetylcytidine,Nucleotide,"Pyrimidine Metabolism, Cytidine containing",3768-18-1,,0.0012811916571738857,microbiome
+metabolite_100001267,2.0,0.0012794909976049373,0.0,100001267,piperine,Xenobiotics,Food Component/Plant,94-62-2,C03882,0.0012794909976049373,microbiome
+metabolite_825,3.0,0.001244790980872712,0.0,825,uracil,Nucleotide,"Pyrimidine Metabolism, Uracil containing",66-22-8,C00106,0.001244790980872712,microbiome
+metabolite_100001272,1.0,0.0012228764408017678,0.0,100001272,1-oleoyl-GPC (18:1),Lipid,Lysolipid,19420-56-5,,0.0012228764408017678,microbiome
+metabolite_100003594,1.0,0.0012225048703123909,0.0,100003594,phenylalanyltryptophan,Peptide,Dipeptide,24587-41-5,,0.0012225048703123909,microbiome
+metabolite_100001271,1.0,0.00120944999159589,0.0,100001271,1-stearoyl-GPC (18:0),Lipid,Lysolipid,19420-57-6,,0.00120944999159589,microbiome
+metabolite_100010950,2.0,0.0012016376698181785,0.0,100010950,stearoyl-arachidonoyl-glycerol (18:0/20:4) [2]*,Lipid,Diacylglycerol,,,0.0012016376698181785,microbiome
+metabolite_100000580,2.0,0.0011924045853808352,0.0,100000580,"1,5-anhydroglucitol (1,5-AG)",Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",154-58-5,C07326,0.0011924045853808352,microbiome
+metabolite_100001132,2.0,0.001161698320177429,0.0,100001132,pyroglutamylvaline,Peptide,Dipeptide,21282-10-0,,0.001161698320177429,microbiome
+metabolite_100006430,1.0,0.001146747838916773,0.0,100006430,arabitol/xylitol,Carbohydrate,Pentose Metabolism,,C01904,0.001146747838916773,microbiome
+metabolite_100000616,7.0,0.0011430822912325,0.0,100000616,1-stearoyl-2-arachidonoyl-GPI (18:0/20:4),Lipid,Phospholipid Metabolism,383907-33-3,,0.0011430822912325,microbiome
+metabolite_100015787,2.0,0.0011369014939125455,0.0,100015787,"sphingomyelin (d18:1/19:0, d19:1/18:0)*",Lipid,Sphingolipid Metabolism,,,0.0011369014939125455,microbiome
+metabolite_100015745,2.0,0.0011302884663896284,0.0,100015745,"glycosyl ceramide (d18:2/24:1, d18:1/24:2)*",Lipid,Ceramides,,,0.0011302884663896284,microbiome
+metabolite_100022013,4.0,0.0011034392090515377,0.0,100022013,tetrahydrocortisol glucuronide,Lipid,Corticosteroids,,,0.0011034392090515377,microbiome
+metabolite_100001876,4.0,0.0010946473665605083,0.0,100001876,sphinganine-1-phosphate,Lipid,Sphingolipid Metabolism,19794-97-9,,0.0010946473665605083,microbiome
+metabolite_100015839,2.0,0.001084444860217082,0.0,100015839,dihomo-linoleoylcarnitine (C20:2)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.001084444860217082,microbiome
+metabolite_482,6.0,0.0010755897707850348,0.0,482,lactate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",79-33-4,C00186,0.0010755897707850348,microbiome
+metabolite_100008954,5.0,0.001072926723407197,0.0,100008954,palmitoyl dihydrosphingomyelin (d18:0/16:0)*,Lipid,Sphingolipid Metabolism,,,0.001072926723407197,microbiome
+metabolite_100009135,11.0,0.0010527502162245295,0.0,100009135,1-(1-enyl-stearoyl)-2-linoleoyl-GPC (P-18:0/18:2)*,Lipid,Plasmalogen,,,0.0010527502162245295,microbiome
+metabolite_100001740,1.0,0.001045051792872731,0.0,100001740,mannitol/sorbitol,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",,C00794,0.001045051792872731,microbiome
+metabolite_100009346,1.0,0.0010426536016403531,0.0,100009346,"phosphatidylcholine (14:0/14:0, 16:0/12:0)",Lipid,Phospholipid Metabolism,,,0.0010426536016403531,microbiome
+metabolite_100001739,3.0,0.0010415152578816533,0.0,100001739,dihomo-linolenate (20:3n3 or n6),Lipid,Polyunsaturated Fatty Acid (n3 and n6),17046-59-2,C03242,0.0010415152578816533,microbiome
+metabolite_100004509,5.0,0.0010414746618728765,0.0,100004509,S-allylcysteine,Xenobiotics,Food Component/Plant,21593-77-1,,0.0010414746618728765,microbiome
+metabolite_100009350,5.0,0.001039291537170195,0.0,100009350,1-oleoyl-2-dihomo-linoleoyl-GPC (18:1/20:2)*,Lipid,Phospholipid Metabolism,,,0.001039291537170195,microbiome
+metabolite_100009140,1.0,0.0010370350172906884,0.0,100009140,1-myristoyl-2-docosahexaenoyl-GPC (14:0/22:6)*,Lipid,Phospholipid Metabolism,,,0.0010370350172906884,microbiome
+metabolite_100000015,2.0,0.0010212475136417432,0.0,100000015,xanthurenate,Amino Acid,Tryptophan Metabolism,59-007,C02470,0.0010212475136417432,microbiome
+metabolite_100001392,1.0,0.0010176523952207805,0.0,100001392,laurylcarnitine (C12),Lipid,Fatty Acid Metabolism(Acyl Carnitine),25518-54-1,,0.0010176523952207805,microbiome
+metabolite_100009132,1.0,0.0010122636154251685,0.0,100009132,1-linoleoyl-2-docosahexaenoyl-GPC (18:2/22:6)*,Lipid,Phospholipid Metabolism,,,0.0010122636154251685,microbiome
+metabolite_100009020,22.0,0.0010065843457320867,0.0,100009020,1-palmityl-2-oleoyl-GPC (O-16:0/18:1)*,Lipid,Phospholipid Metabolism,,,0.0010065843457320867,microbiome
+metabolite_1124,1.0,0.000993063996640564,0.0,1124,citrate,Energy,TCA Cycle,77-92-9,C00158,0.000993063996640564,microbiome
+metabolite_100015681,13.0,0.0009746116193247722,0.0,100015681,palmitoleoyl-arachidonoyl-glycerol (16:1/20:4) [2]*,Lipid,Diacylglycerol,,,0.0009746116193247722,microbiome
+metabolite_100002953,1.0,0.0009733700084771923,0.0,100002953,16-hydroxypalmitate,Lipid,"Fatty Acid, Monohydroxy",506-13-8,C18218,0.0009733700084771923,microbiome
+metabolite_100015846,1.0,0.0009446194502047423,0.0,100015846,nervonoylcarnitine (C24:1)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.0009446194502047423,microbiome
+metabolite_100002173,1.0,0.0009259243343344714,0.0,100002173,1-pentadecanoyl-GPC (15:0)*,Lipid,Lysolipid,,,0.0009259243343344714,microbiome
+metabolite_100001277,4.0,0.0009230577246205351,0.0,100001277,10-nonadecenoate (19:1n9),Lipid,Long Chain Fatty Acid,73033-09-7,,0.0009230577246205351,microbiome
+metabolite_100001604,2.0,0.0008937632007287588,0.0,100001604,hydroquinone sulfate,Xenobiotics,Drug,123-31-9,C00530,0.0008937632007287588,microbiome
+metabolite_100000269,2.0,0.0008913488301641737,0.0,100000269,glycerophosphorylcholine (GPC),Lipid,Phospholipid Metabolism,28319-77-9,C00670,0.0008913488301641737,microbiome
+metabolite_100020254,4.0,0.0008786401123700438,0.0,100020254,glycine conjugate of C10H14O2 (1)*,Partially Characterized Molecules,Partially Characterized Molecules,,,0.0008786401123700438,microbiome
+metabolite_100001178,1.0,0.0008784689752370234,0.0,100001178,3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF),Lipid,"Fatty Acid, Dicarboxylate",86879-39-2,,0.0008784689752370234,microbiome
+metabolite_313,8.0,0.000878461254282592,0.0,313,sphinganine,Lipid,Sphingolipid Metabolism,3102-56-5,C00836,0.000878461254282592,microbiome
+metabolite_100015587,1.0,0.0008363994419913201,0.0,100015587,1-stearyl-2-docosapentaenoyl-GPC (O-18:0/22:5n3)*,Lipid,Phospholipid Metabolism,,,0.0008363994419913201,microbiome
+metabolite_100003260,1.0,0.0008079207478197681,0.0,100003260,carboxyethyl-GABA,Amino Acid,Glutamate Metabolism,3/2/86,,0.0008079207478197681,microbiome
+metabolite_100000808,1.0,0.0008046599568305446,0.0,100000808,cysteine s-sulfate,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",1637-71-4,C05824,0.0008046599568305446,microbiome
+metabolite_888,1.0,0.0007902900304358473,0.0,888,caprate (10:0),Lipid,Medium Chain Fatty Acid,334-48-5,C01571,0.0007902900304358473,microbiome
+metabolite_100020631,2.0,0.0007812827265448741,0.0,100020631,4-methylhexanoylglutamine,Lipid,Fatty Acid Metabolism (Acyl Glutamine),,,0.0007812827265448741,microbiome
+metabolite_100006115,1.0,0.0007648513386298017,0.0,100006115,arabonate/xylonate,Carbohydrate,Pentose Metabolism,,,0.0007648513386298017,microbiome
+metabolite_100003151,4.0,0.0007540706392088481,0.0,100003151,linoleoylcarnitine (C18:2)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),36816-10-1,,0.0007540706392088481,microbiome
+metabolite_100005367,1.0,0.0007420954875283492,0.0,100005367,N-acetylalliin,Xenobiotics,Food Component/Plant,,,0.0007420954875283492,microbiome
+metabolite_100015759,2.0,0.0007370564726523199,0.0,100015759,stearoylcholine*,Lipid,Fatty Acid Metabolism (Acyl Choline),,,0.0007370564726523199,microbiome
+metabolite_100001566,1.0,0.0007280995724662231,0.0,100001566,1-docosahexaenoyl-GPC (22:6)*,Lipid,Lysolipid,,,0.0007280995724662231,microbiome
+metabolite_100005350,3.0,0.0007257471559417583,0.0,100005350,1-linolenoyl-GPC (18:3)*,Lipid,Lysolipid,,,0.0007257471559417583,microbiome
+metabolite_100015791,1.0,0.0007197349002674436,0.0,100015791,sphingomyelin (d18:2/23:1)*,Lipid,Sphingolipid Metabolism,,,0.0007197349002674436,microbiome
+metabolite_100001276,3.0,0.0007134261229383432,0.0,100001276,N-acetylisoleucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",3077-46-1,,0.0007134261229383432,microbiome
+metabolite_980,3.0,0.0007000230045328681,0.0,980,pentadecanoate (15:0),Lipid,Long Chain Fatty Acid,1002-84-2;10002-84-2,C16537,0.0007000230045328681,microbiome
+metabolite_1442,3.0,0.0006989869217435274,0.0,1442,beta-hydroxyisovalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",625-08-1,,0.0006989869217435274,microbiome
+metabolite_100001167,3.0,0.0006973517392507844,0.0,100001167,pro-hydroxy-pro,Amino Acid,Urea cycle; Arginine and Proline Metabolism,18684-24-7,,0.0006973517392507844,microbiome
+metabolite_181,1.0,0.0006774127178484912,0.0,181,laurate (12:0),Lipid,Medium Chain Fatty Acid,143-07-7,C02679,0.0006774127178484912,microbiome
+metabolite_1537,1.0,0.0006765781509339153,0.0,1537,1-palmitoyl-2-linoleoyl-GPC (16:0/18:2),Lipid,Phospholipid Metabolism,40811-94-7,,0.0006765781509339153,microbiome
+metabolite_415,3.0,0.0006731078724097062,0.0,415,methionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",63-68-3,C00073,0.0006731078724097062,microbiome
+metabolite_100008993,10.0,0.0006664866750553111,0.0,100008993,1-palmitoyl-2-arachidonoyl-GPI (16:0/20:4)*,Lipid,Phospholipid Metabolism,,,0.0006664866750553111,microbiome
+metabolite_100002102,3.0,0.0006502955088121265,0.0,100002102,N-acetyl-beta-alanine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",3025-95-4,C01073,0.0006502955088121265,microbiome
+metabolite_100001580,2.0,0.0006386459437045522,0.0,100001580,docosapentaenoate (n6 DPA; 22:5n6),Lipid,Polyunsaturated Fatty Acid (n3 and n6),25182-74-5,C16513,0.0006386459437045522,microbiome
+metabolite_100001777,3.0,0.0006366483342792328,0.0,100001777,1-oleoyl-GPI (18:1),Lipid,Lysolipid,,,0.0006366483342792328,microbiome
+metabolite_100001182,6.0,0.0006330129355809344,0.0,100001182,docosadienoate (22:2n6),Lipid,Polyunsaturated Fatty Acid (n3 and n6),7370-49-2,C16533,0.0006330129355809344,microbiome
+metabolite_100020493,3.0,0.0006325315374487994,0.0,100020493,glucuronide of piperine metabolite C17H21NO3 (5)*,Xenobiotics,Food Component/Plant,,,0.0006325315374487994,microbiome
+metabolite_100001278,1.0,0.000627514401347673,0.0,100001278,10-heptadecenoate (17:1n7),Lipid,Long Chain Fatty Acid,29743-97-3,,0.000627514401347673,microbiome
+metabolite_100006367,2.0,0.0006030829858322262,0.0,100006367,3-hydroxyhexanoate,Lipid,"Fatty Acid, Monohydroxy",10191-24-9,,0.0006030829858322262,microbiome
+metabolite_100010869,2.0,0.0006020523766817609,0.0,100010869,"2,3-dihydroxy-2-methylbutyrate",Amino Acid,"Leucine, Isoleucine and Valine Metabolism",14868-24-7,,0.0006020523766817609,microbiome
+metabolite_100001433,1.0,0.0006018274332324491,0.0,100001433,1-arachidonylglycerol (20:4),Lipid,Monoacylglycerol,35474-99-8,C13857,0.0006018274332324491,microbiome
+metabolite_100000792,1.0,0.0005982834246980318,0.0,100000792,dehydroepiandrosterone sulfate (DHEA-S),Lipid,Steroid,651-48-9,C04555,0.0005982834246980318,microbiome
+metabolite_100020491,7.0,0.0005830784718564574,0.0,100020491,glucuronide of piperine metabolite C17H21NO3 (3)*,Xenobiotics,Food Component/Plant,,,0.0005830784718564574,microbiome
+metabolite_100009345,1.0,0.0005826645639362971,0.0,100009345,1-palmitoleoyl-2-linolenoyl-GPC (16:1/18:3)*,Lipid,Phospholipid Metabolism,,,0.0005826645639362971,microbiome
+metabolite_1629,12.0,0.0005687802180656121,0.0,1629,taurochenodeoxycholate,Lipid,Primary Bile Acid Metabolism,6009-98-9,C05465,0.0005687802180656121,microbiome
+metabolite_100021123,1.0,0.0005565718242966922,0.0,100021123,"hydroxy-N6,N6,N6-trimethyllysine*",Amino Acid,Lysine Metabolism,,,0.0005565718242966922,microbiome
+metabolite_100001882,1.0,0.0005511637993705909,0.0,100001882,glycosyl-N-stearoyl-sphingosine (d18:1/18:0),Lipid,Sphingolipid Metabolism,,,0.0005511637993705909,microbiome
+metabolite_424,6.0,0.0005452486359946995,0.0,424,palmitate (16:0),Lipid,Long Chain Fatty Acid,57-10-3,C00249,0.0005452486359946995,microbiome
+metabolite_100004552,1.0,0.0005323271979853494,0.0,100004552,1-eicosapentaenoyl-GPE (20:5)*,Lipid,Lysolipid,,,0.0005323271979853494,microbiome
+metabolite_100020893,1.0,0.000530308339723562,0.0,100020893,"2,3-dihydroxy-5-methylthio-4-pentenoate (DMTPA)*",Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,0.000530308339723562,microbiome
+metabolite_254,2.0,0.0005156757184897609,0.0,254,3-hydroxybutyrate (BHBA),Lipid,Ketone Bodies,625-72-9,C01089,0.0005156757184897609,microbiome
+metabolite_100009333,1.0,0.0005137095195983932,0.0,100009333,docosahexaenoylcholine,Lipid,Phospholipid Metabolism,,,0.0005137095195983932,microbiome
+metabolite_100002026,3.0,0.0005044933705687926,0.0,100002026,"androstenediol (3alpha, 17alpha) monosulfate (2)",Lipid,Steroid,,,0.0005044933705687926,microbiome
+metabolite_100002537,7.0,0.000500472970160315,0.0,100002537,4-hydroxy-2-oxoglutaric acid,Lipid,"Fatty Acid, Dicarboxylate",1187-99-1,C01127,0.000500472970160315,microbiome
+metabolite_331,3.0,0.0004957142219246258,0.0,331,gamma-glutamylglutamate,Peptide,Gamma-glutamyl Amino Acid,1116-22-9,C05282,0.0004957142219246258,microbiome
+metabolite_100003001,1.0,0.00047238275182925893,0.0,100003001,1-(1-enyl-stearoyl)-GPE (P-18:0)*,Lipid,Lysoplasmalogen,,,0.00047238275182925893,microbiome
+metabolite_100008920,6.0,0.0004694817590269462,0.0,100008920,"sphingomyelin (d18:1/17:0, d17:1/18:0, d19:1/16:0)",Lipid,Sphingolipid Metabolism,121999-64-2,,0.0004694817590269462,microbiome
+metabolite_100001263,1.0,0.00045015901162770433,0.0,100001263,1-palmitoyl-GPC (16:0),Lipid,Lysolipid,17364-16-8,,0.00045015901162770433,microbiome
+metabolite_100001232,2.0,0.00044614875257587006,0.0,100001232,5-dodecenoate (12:1n7),Lipid,Medium Chain Fatty Acid,2430-94-6,,0.00044614875257587006,microbiome
+metabolite_100005351,4.0,0.000431461943113276,0.0,100005351,1-eicosapentaenoyl-GPC (20:5)*,Lipid,Lysolipid,,,0.000431461943113276,microbiome
+metabolite_100020378,3.0,0.0004200674718456421,0.0,100020378,2-hydroxysebacate,Lipid,"Fatty Acid, Dicarboxylate",103963-71-9,,0.0004200674718456421,microbiome
+metabolite_100009332,1.0,0.0004080501019756433,0.0,100009332,arachidonoylcholine,Lipid,Phospholipid Metabolism,,,0.0004080501019756433,microbiome
+metabolite_100009025,1.0,0.00037210320476244174,0.0,100009025,"sphingomyelin (d18:1/21:0, d17:1/22:0, d16:1/23:0)*",Lipid,Sphingolipid Metabolism,,,0.00037210320476244174,microbiome
+metabolite_55,3.0,0.00036185370530095184,0.0,55,1-methylnicotinamide,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,1005-24-9,C02918,0.00036185370530095184,microbiome
+metabolite_1538,4.0,0.0003545762829479937,0.0,1538,stearoyl sphingomyelin (d18:1/18:0),Lipid,Sphingolipid Metabolism,85187-10-6;85187-10-6,C00550,0.0003545762829479937,microbiome
+metabolite_100002107,4.0,0.00032416161141668454,0.0,100002107,palmitoyl sphingomyelin (d18:1/16:0),Lipid,Sphingolipid Metabolism,6254-89-3,,0.00032416161141668454,microbiome
+metabolite_100015836,1.0,0.0003211079055112087,0.0,100015836,ximenoylcarnitine (C26:1)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.0003211079055112087,microbiome
+metabolite_100002171,1.0,0.00031901523793376185,0.0,100002171,1-margaroyl-GPE (17:0)*,Lipid,Lysolipid,,,0.00031901523793376185,microbiome
+metabolite_1254,1.0,0.00031832031474920974,0.0,1254,glycerol,Lipid,Glycerolipid Metabolism,56-81-5,C00116,0.00031832031474920974,microbiome
+metabolite_100021162,2.0,0.0003154574730857007,0.0,100021162,palmitoyl-sphingosine-phosphoethanolamine (d18:1/16:0),Lipid,Ceramide PEs,,,0.0003154574730857007,microbiome
+metabolite_501,1.0,0.00031345875837718307,0.0,501,salicylate,Xenobiotics,Drug,69-72-7,C00805,0.00031345875837718307,microbiome
+metabolite_100002106,2.0,0.0002859864295197134,0.0,100002106,"sphingomyelin (d18:1/18:1, d18:2/18:0)",Lipid,Sphingolipid Metabolism,108392-10-5,,0.0002859864295197134,microbiome
+metabolite_100009406,7.0,0.00027452780355863293,0.0,100009406,palmitoleoylcarnitine (C16:1)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,0.00027452780355863293,microbiome
+metabolite_498,5.0,0.0002547494979732168,0.0,498,retinol (Vitamin A),Cofactors and Vitamins,Vitamin A Metabolism,68-26-8,C00473,0.0002547494979732168,microbiome
+metabolite_891,2.0,0.0002452496700042772,0.0,891,margarate (17:0),Lipid,Long Chain Fatty Acid,506-12-7,,0.0002452496700042772,microbiome
+metabolite_100000491,2.0,0.00022240443070287164,0.0,100000491,gamma-glutamylphenylalanine,Peptide,Gamma-glutamyl Amino Acid,7432-24-8,,0.00022240443070287164,microbiome
+metabolite_100000924,1.0,0.0002178400955763493,0.0,100000924,1-oleoylglycerol (18:1),Lipid,Monoacylglycerol,111-03-5,,0.0002178400955763493,microbiome
+metabolite_100001556,1.0,0.00021713083030994174,0.0,100001556,2-oleoyl-GPC (18:1)*,Lipid,Lysolipid,,,0.00021713083030994174,microbiome
+metabolite_100020502,2.0,0.00020185413132411956,0.0,100020502,sulfate of piperine metabolite C18H21NO3 (1)*,Xenobiotics,Food Component/Plant,,,0.00020185413132411956,microbiome
+metabolite_100001570,1.0,0.00020122970257119288,0.0,100001570,1-linoleoyl-GPE (18:2)*,Lipid,Lysolipid,,,0.00020122970257119288,microbiome
+metabolite_439,2.0,0.00019783344099344458,0.0,439,stearate (18:0),Lipid,Long Chain Fatty Acid,57-11-4,C01530,0.00019783344099344458,microbiome
+metabolite_100001810,2.0,0.00019527866912949499,0.0,100001810,dimethylarginine (SDMA + ADMA),Amino Acid,Urea cycle; Arginine and Proline Metabolism,102783-24-4,C03626,0.00019527866912949499,microbiome
+metabolite_815,1.0,0.0001925228433204973,0.0,815,tyrosine,Amino Acid,Phenylalanine and Tyrosine Metabolism,60-18-4,C00082,0.0001925228433204973,microbiome
+metabolite_100003008,1.0,0.0001901788648398517,0.0,100003008,2-stearoyl-GPI (18:0)*,Lipid,Lysolipid,,,0.0001901788648398517,microbiome
+metabolite_100002070,1.0,0.00018978251041257277,0.0,100002070,2-hydroxyglutarate,Lipid,"Fatty Acid, Dicarboxylate",40951-21-1,C02630,0.00018978251041257277,microbiome
+metabolite_100015618,10.0,0.00018560780869458782,0.0,100015618,palmitoyl-docosahexaenoyl-glycerol (16:0/22:6) [1]*,Lipid,Diacylglycerol,,,0.00018560780869458782,microbiome
+metabolite_100009233,3.0,0.00017294001044076968,0.0,100009233,palmitoylcholine,Lipid,Fatty Acid Metabolism (Acyl Choline),,,0.00017294001044076968,microbiome
+metabolite_100003000,1.0,0.00016601455710840707,0.0,100003000,1-(1-enyl-palmitoyl)-GPE (P-16:0)*,Lipid,Lysoplasmalogen,,,0.00016601455710840707,microbiome
+metabolite_100000039,2.0,0.00016232852736719483,0.0,100000039,methionine sulfoxide,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",3226-65-1,C02989,0.00016232852736719483,microbiome
+metabolite_1102,1.0,0.00016232165242902052,0.0,1102,gamma-glutamyltyrosine,Peptide,Gamma-glutamyl Amino Acid,7432-23-7,,0.00016232165242902052,microbiome
+metabolite_100006051,1.0,0.00015407044572379736,0.0,100006051,myristoleoylcarnitine (C14:1)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),889848-55-9,,0.00015407044572379736,microbiome
+metabolite_111,4.0,0.0001377254574164155,0.0,111,3-hydroxyisobutyrate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",2068-83-9,C06001,0.0001377254574164155,microbiome
+metabolite_100002356,2.0,0.00012894674517549554,0.0,100002356,(16 or 17)-methylstearate (a19:0 or i19:0),Lipid,"Fatty Acid, Branched",2724-59-6,,0.00012894674517549554,microbiome
+metabolite_100015624,1.0,0.00012104609415164447,0.0,100015624,N-behenoyl-sphingadienine (d18:2/22:0)*,Lipid,Sphingolipid Metabolism,,,0.00012104609415164447,microbiome
+metabolite_100001485,2.0,0.00011324919992550253,0.0,100001485,gamma-glutamylisoleucine*,Peptide,Gamma-glutamyl Amino Acid,,,0.00011324919992550253,microbiome
+metabolite_100001651,6.0,0.00011014429063027631,0.0,100001651,2-oleoyl-GPE (18:1)*,Lipid,Lysolipid,,,0.00011014429063027631,microbiome
+metabolite_100015760,1.0,0.00010894227323332561,0.0,100015760,linoleoylcholine*,Lipid,Fatty Acid Metabolism (Acyl Choline),,,0.00010894227323332561,microbiome
+metabolite_100016038,3.0,0.00010369025350354111,0.0,100016038,(N(1) + N(8))-acetylspermidine,Amino Acid,Polyamine Metabolism,14278-49-0,C00612,0.00010369025350354111,microbiome
+metabolite_100005673,4.0,9.467076983593614e-05,0.0,100005673,1-docosapentaenoyl-GPC (22:5n6)*,Lipid,Lysolipid,,,9.467076983593614e-05,microbiome
+metabolite_100001126,2.0,9.44058872435205e-05,0.0,100001126,gamma-glutamylvaline,Peptide,Gamma-glutamyl Amino Acid,2746-34-1,,9.44058872435205e-05,microbiome
+metabolite_35,2.0,8.239514851160479e-05,0.0,35,S-1-pyrroline-5-carboxylate,Amino Acid,Glutamate Metabolism,2906-39-0,C04322,8.239514851160479e-05,microbiome
+metabolite_100002129,4.0,8.05906804333123e-05,0.0,100002129,pregnenolone sulfate,Lipid,Steroid,1247-64-9,,8.05906804333123e-05,microbiome
+metabolite_100000802,1.0,7.447891759171377e-05,0.0,100000802,acetylcarnitine (C2),Lipid,Fatty Acid Metabolism(Acyl Carnitine),5080-50-2,C02571,7.447891759171377e-05,microbiome
+metabolite_100001409,1.0,6.549144046974487e-05,0.0,100001409,N1-methylinosine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",20245-33-4,,6.549144046974487e-05,microbiome
+metabolite_893,2.0,6.241599808831655e-05,0.0,893,arachidate (20:0),Lipid,Long Chain Fatty Acid,506-30-9,C06425,6.241599808831655e-05,microbiome
+metabolite_444,3.0,6.06616692213624e-05,0.0,444,ornithine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,3184-13-2,C00077,6.06616692213624e-05,microbiome
+metabolite_1084,1.0,5.967408467710822e-05,0.0,1084,N-acetylvaline,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",96-81-1,,5.967408467710822e-05,microbiome
+metabolite_93,11.0,5.9039991675446934e-05,0.0,93,alpha-ketoglutarate,Energy,TCA Cycle,305-72-6;328-50-7;22202-68-2,C00026,5.9039991675446934e-05,microbiome
+metabolite_100000882,2.0,5.836117689261844e-05,0.0,100000882,3-hydroxymyristate,Lipid,"Fatty Acid, Monohydroxy",3422-31-9,,5.836117689261844e-05,microbiome
+metabolite_100001557,2.0,5.46200564353061e-05,0.0,100001557,2-linoleoyl-GPC (18:2)*,Lipid,Lysolipid,,,5.46200564353061e-05,microbiome
+metabolite_100015744,2.0,5.333481236236004e-05,0.0,100015744,"ceramide (d18:2/24:1, d18:1/24:2)*",Lipid,Ceramides,,,5.333481236236004e-05,microbiome
+metabolite_1137,1.0,5.236885118486967e-05,0.0,1137,oleoyl ethanolamide,Lipid,Endocannabinoid,11-58-0;111-58-0,,5.236885118486967e-05,microbiome
+metabolite_409,6.0,4.716995464193463e-05,0.0,409,malate,Energy,TCA Cycle,6915-15-7,C00149,4.716995464193463e-05,microbiome
+metabolite_1869,1.0,4.2045608684149194e-05,0.0,1869,2-hydroxyhippurate (salicylurate),Xenobiotics,Benzoate Metabolism,487-54-7,C07588,4.2045608684149194e-05,microbiome
+metabolite_100000257,1.0,4.042263073533725e-05,0.0,100000257,glucuronate,Carbohydrate,Aminosugar Metabolism,207300-70-7,C00191,4.042263073533725e-05,microbiome
+metabolite_100001778,2.0,3.8725914524584404e-05,0.0,100001778,1-linoleoyl-GPI (18:2)*,Lipid,Lysolipid,,,3.8725914524584404e-05,microbiome
+metabolite_100009161,2.0,3.677976135274541e-05,0.0,100009161,1-(1-enyl-palmitoyl)-2-myristoyl-GPC (P-16:0/14:0)*,Lipid,Plasmalogen,,,3.677976135274541e-05,microbiome
+metabolite_100006129,1.0,3.523862097765118e-05,0.0,100006129,vanillactate,,,2475-56-1,,3.523862097765118e-05,microbiome
+metabolite_1087,2.0,3.1095704451922224e-05,0.0,1087,erucate (22:1n9),Lipid,Long Chain Fatty Acid,112-86-7,C08316,3.1095704451922224e-05,microbiome
+metabolite_100015831,7.0,3.064927461116085e-05,0.0,100015831,linolenoylcarnitine (C18:3)*,Lipid,Fatty Acid Metabolism(Acyl Carnitine),,,3.064927461116085e-05,microbiome
+metabolite_823,8.0,2.790039694566815e-05,0.0,823,pyruvate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",127-17-3,C00022,2.790039694566815e-05,microbiome
+metabolite_800,1.0,2.3105181293670007e-05,0.0,800,cysteine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",52-90-4;56-89-3,C00097,2.3105181293670007e-05,microbiome
+metabolite_100015793,3.0,2.1999591577115396e-05,0.0,100015793,"sphingomyelin (d17:2/16:0, d18:2/15:0)*",Lipid,Sphingolipid Metabolism,,,2.1999591577115396e-05,microbiome
+metabolite_100000961,1.0,1.4852727409309097e-05,0.0,100000961,homoarginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,156-86-5,C01924,1.4852727409309097e-05,microbiome
+metabolite_100006314,3.0,1.3174511503399877e-05,0.0,100006314,"sphingomyelin (d17:1/16:0, d18:1/15:0, d16:1/17:0)*",Lipid,Sphingolipid Metabolism,121999-58-4,,1.3174511503399877e-05,microbiome
+metabolite_100002951,8.0,1.212458473354161e-05,0.0,100002951,eicosanedioate (C20-DC),Lipid,"Fatty Acid, Dicarboxylate",2424-92-2,,1.212458473354161e-05,microbiome
+metabolite_519,2.0,1.1995583320767444e-05,0.0,519,myristate (14:0),Lipid,Long Chain Fatty Acid,544-63-8,C06424,1.1995583320767444e-05,microbiome
+metabolite_100009126,4.0,9.541687684522238e-06,0.0,100009126,1-arachidoyl-2-arachidonoyl-GPC (20:0/20:4)*,,,,,9.541687684522238e-06,microbiome
+metabolite_100022120,1.0,9.463997375447342e-06,0.0,100022120,oxindolylalanine,Xenobiotics,Chemical,,,9.463997375447342e-06,microbiome
+metabolite_100020541,1.0,8.01987055321085e-06,0.0,100020541,11beta-hydroxyandrosterone glucuronide,Lipid,Androgenic Steroids,,,8.01987055321085e-06,microbiome
+metabolite_100000707,,0.0,7.563696970525058e-06,100000707,maleate,Lipid,"Fatty Acid, Dicarboxylate",110-16-7,C01384,7.563696970525058e-06,genetics
+metabolite_878,1.0,4.95721907922686e-06,0.0,878,fructose,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",57-48-7,C00095,4.95721907922686e-06,microbiome
+metabolite_564,4.0,4.38071207564672e-06,0.0,564,threonine,Amino Acid,"Glycine, Serine and Threonine Metabolism",72-19-5,C00188,4.38071207564672e-06,microbiome
+metabolite_100000776,15.0,3.946917879638079e-06,0.0,100000776,palmitoylcarnitine (C16),Lipid,Fatty Acid Metabolism(Acyl Carnitine),6865-14-1,C02990,3.946917879638079e-06,microbiome
+metabolite_100009335,1.0,3.870012242335186e-06,0.0,100009335,dihomo-linolenoyl-choline,Lipid,Phospholipid Metabolism,,,3.870012242335186e-06,microbiome
+metabolite_100002060,4.0,2.6983329578511572e-06,0.0,100002060,1-docosahexaenoyl-GPE (22:6)*,Lipid,Lysolipid,,,2.6983329578511572e-06,microbiome
+metabolite_342,6.0,2.5448543813366697e-06,0.0,342,glycocholate,Lipid,Primary Bile Acid Metabolism,475-31-0;863-57-0,C01921,2.5448543813366697e-06,microbiome
+metabolite_100015965,1.0,1.6053731812792904e-06,0.0,100015965,ethyl alpha-glucopyranoside,Xenobiotics,Food Component/Plant,34625-23-5,,1.6053731812792904e-06,microbiome
+metabolite_100001198,1.0,1.3249891414046644e-06,0.0,100001198,myristoleate (14:1n5),Lipid,Long Chain Fatty Acid,544-64-9,C08322,1.3249891414046644e-06,microbiome
+metabolite_100006296,1.0,1.1944831999066707e-06,0.0,100006296,"sphingomyelin (d18:1/22:2, d18:2/22:1, d16:1/24:2)*",Lipid,Sphingolipid Metabolism,,,1.1944831999066707e-06,microbiome
+metabolite_452,2.0,7.204726402143535e-07,0.0,452,palmitoleate (16:1n7),Lipid,Long Chain Fatty Acid,373-49-9,C08362,7.204726402143535e-07,microbiome

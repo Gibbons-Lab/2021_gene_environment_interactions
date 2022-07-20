@@ -1,9 +1,15 @@
 """Some general utility functions."""
 
 from Bio import Entrez
+import matplotlib.pyplot as plt
 import pandas as pd
 import re
 import seaborn as sns
+from plotnine import *
+from mizani.formatters import percent_format
+from scipy.stats import hypergeom
+from statsmodels.stats.multitest import multipletests
+import numpy as np
 
 Entrez.email = "cdiener@isbscience.org"
 
@@ -65,47 +71,111 @@ def rsid2gene(ids):
     return pd.DataFrame.from_records(genes)
 
 
-def summarize_associations(df, name):
-    """Summarize results for a subset of metaoblites."""
-    subset = df.copy()
-    n_snvs = subset.variant.nunique()
-    n_microbes = subset.Genus.nunique()
+def summarize_associations(name, joint_r_sq, sig_metab_assoc, micro_metab_assoc, only_r2=False):
+    """Summarize results for a subset of metabolites."""
+    subset = (
+        joint_r_sq.copy()[["metabolite", "BIOCHEMICAL_NAME", "group", "micro_r2", "geno_r2"]]
+        .melt(id_vars=["metabolite", "BIOCHEMICAL_NAME", "group"], value_name="r2", var_name = "type")
+        .sort_values(["group", "r2"])
+    )
+    subset = subset[subset.r2 > 0.0001]
+    subset.BIOCHEMICAL_NAME = subset.BIOCHEMICAL_NAME.str.replace(" (1)", "", regex=False)
     n_metab = subset.metabolite.nunique()
 
     pl = (
-        ggplot(subset, aes(y="r2", x="metabolite", fill="type"))
+        ggplot(subset, aes(y="r2", x="BIOCHEMICAL_NAME", fill="type"))
         + geom_bar(stat="identity") 
-        + scale_x_discrete(limits=subset.metabolite[::-1].drop_duplicates())
+        + scale_x_discrete(limits=subset.BIOCHEMICAL_NAME[::-1].drop_duplicates())
         + scale_y_continuous(labels=percent_format())
         + coord_flip()
         + labs(y = "explained metabolite variance", x="")
-        + scale_fill_manual(values={"genetics_r_squared": "steelblue", "micro_r_squared": "mediumseagreen"})
+        + scale_fill_manual(values={"geno_r2": "steelblue", "micro_r2": "mediumseagreen"})
         + guides(fill = None)
         + theme_minimal() 
-        + theme(figure_size=(3, 0.4*n_metab))
+        + theme(figure_size=(3, 0.25*n_metab))
     )
-    pl.save(f"../figures/{name}_r2.pdf")
-
-    subset_ids = joint_r_sq[joint_r_sq.metabolite.str.contains("subsetchol")].index
-    subset_snvs = sig_metab_assoc[sig_metab_assoc.Phenotype.isin(subset_ids)]
-    subset_snvs["variant"] = subset_snvs["rsid"] + " | chr" + subset_snvs["chromosome"] 
-    subset_snvs.loc[subset_snvs.genes != "", "variant"] = (
-        subset_snvs.loc[subset_snvs.genes != "", "variant"] 
-        + " | " 
-        + subset_snvs.loc[subset_snvs.genes != "", "genes"]
-    )
-    subset_snvs["metabolite"] = subset_snvs["metabolite"].str.replace(" (1)", "", regex=False)
-    subset_snvs["value"] = 1
-
-    subset_mat = subset_snvs.pivot_table(index="metabolite", columns="variant", values="value", fill_value=0)
-    snv_map = sns.clustermap(subset_mat, cmap="Blues", figsize=(0.2*n_snvs, 0.2*n_metab), yticklabels=True)
-    plt.savefig(f"../figures/{name}_variants.pdf", pad_inches=0.1, bbox_inches="tight")
+    pl.save(f"figures/{name}_r2.pdf")
     
-    subset_mic = micro_metab_assoc[micro_metab_assoc.metabolite_id.isin(subset_ids)]
-    subset_mic["metabolite"] = subset_mic["metabolite"].str.replace(" (1)", "", regex=False)
+    if only_r2:
+        return pl
 
-    subset_mic_mat = subset_mic.pivot_table(columns="Genus", index="metabolite", values="r", fill_value=0)
-    microbe_map = sns.clustermap(subset_mic_mat, cmap="seismic", figsize=(0.2*n_microbes, 0.2*n_metab), yticklabels=True, xticklabels=True, center=0)
-    plt.savefig(f"../figures/{name}_genera.pdf", pad_inches=0.1, bbox_inches="tight")
+    subset_snvs = sig_metab_assoc[sig_metab_assoc.metabolite.isin(subset.metabolite)]
+    subset_snvs["variant"] = subset_snvs["rsid"] + " | chr" + subset_snvs["CHR"].astype(str) 
+    subset_snvs.loc[~subset_snvs.genes.isnull(), "variant"] = (
+        subset_snvs.loc[~subset_snvs.genes.isnull(), "variant"] 
+        + " | " 
+        + subset_snvs.loc[~subset_snvs.genes.isnull(), "genes"]
+    )
+    subset_snvs = pd.merge(subset_snvs, subset[["metabolite", "BIOCHEMICAL_NAME"]].drop_duplicates(), on="metabolite")
+    n_snvs = subset_snvs.variant.nunique()
+
+    subset_mat = subset_snvs.pivot_table(index="BIOCHEMICAL_NAME", columns="variant", values="BETA", fill_value=0)
+    snv_map = sns.clustermap(
+        subset_mat, 
+        cmap="seismic", 
+        center=0,
+        figsize=(6 + 0.15*n_snvs, 3 + 0.15*subset_snvs.metabolite.nunique()), 
+        yticklabels=True, 
+        xticklabels=True, 
+        metric="jaccard",
+        row_cluster=subset_mat.shape[0] > 1)
+    plt.setp(snv_map.ax_heatmap.get_xticklabels(), rotation=45, ha='right') 
+    plt.savefig(f"figures/{name}_variants.pdf", pad_inches=0.1, bbox_inches="tight")
+    
+    subset_mic = micro_metab_assoc[micro_metab_assoc.metabolite.isin(subset.metabolite)]
+    subset_mic = pd.merge(subset_mic, subset[["metabolite", "BIOCHEMICAL_NAME"]].drop_duplicates(), on="metabolite")
+    subset_mic["genus"] = subset_mic.taxon.str.split("|").str[1]
+    n_microbes = subset_mic.genus.nunique()
+
+    subset_mic_mat = subset_mic.pivot_table(columns="genus", index="BIOCHEMICAL_NAME", values="r", fill_value=0)
+    microbe_map = sns.clustermap(subset_mic_mat, cmap="seismic", figsize=(10 + 0.12*n_microbes, 3 + 0.2*subset_mic.BIOCHEMICAL_NAME.nunique()), yticklabels=True, xticklabels=True, center=0)
+    plt.setp(microbe_map.ax_heatmap.get_xticklabels(), rotation=45, ha='right') 
+    plt.savefig(f"figures/{name}_genera.pdf", pad_inches=0.1, bbox_inches="tight")
     
     return pl, snv_map, microbe_map
+
+
+def stars(p):
+    if p>0.05:
+        return "n.s."
+    else:
+        return sum(p < c for c in [0.05, 0.01, 0.001]) * "٭"
+
+    
+def enrichment(data, q_cutoff, column, figsize=(3, 4), min_sig=1):
+    """Plot an enrichment analysis for the tests."""
+    sig_data = data[data.q < q_cutoff]
+    full_counts = data[column].value_counts()
+    sig_counts = sig_data[column].value_counts()
+    stats = pd.DataFrame({"full_counts": full_counts, "sig_counts": sig_counts, "n": full_counts.sum(), "sig_n": sig_counts.sum()}).fillna(0)
+    stats["p"] = stats.apply(lambda df: hypergeom.sf(max(0, df.sig_counts - 1), df.n, max(df.full_counts, 1), df.sig_n), axis=1)
+    stats["odds"] = (stats.sig_counts / stats.sig_n) / (stats.full_counts / stats.n)
+    stats["log_odds"] = np.log(stats.odds)
+    stats["q"] = multipletests(stats.p, method="fdr_bh")[1]
+    
+    stats["all"] = stats["full_counts"] / stats["n"]
+    stats["significant"] = stats["sig_counts"] / stats["sig_n"]
+    stats.index.name = column
+    stats.reset_index(inplace=True)
+    
+    long = stats[stats.sig_counts >= min_sig].melt(id_vars=[column, "p", "q"], value_vars=["all", "significant"], value_name="prevalence", var_name="group")
+    long[column] = pd.Categorical(long[column], long.sort_values(by="prevalence")[column].unique()) 
+    long["sig_stars"] = long.q.apply(stars)
+    
+    pl = (
+        ggplot(long, aes(x="prevalence", y=column, shape="group", color="group")) +
+        geom_line(aes(group=column), color="black") +
+        geom_point(size=2) +
+        theme_minimal() +
+        theme(figure_size=figsize) +
+        labs(y="")
+    )
+    if (long.q < 0.05).any():
+        pl += geom_text(
+            aes(label="sig_stars"), 
+            data=long[(long.q<0.05) & (long.group == "significant")], 
+            color="black", va="center", ha="left", 
+            nudge_x=(long.prevalence.max() - long.prevalence.min())*0.025)
+        pl += xlim(0, long.prevalence.max()*1.1)
+    
+    return stats.sort_values(by="p"), pl

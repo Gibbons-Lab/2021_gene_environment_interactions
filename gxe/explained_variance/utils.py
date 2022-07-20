@@ -69,7 +69,7 @@ def rsid2gene(ids):
 
 
 def summarize_associations(df, name, joint_r_sq, sig_metab_assoc, micro_metab_assoc):
-    """Summarize results for a subset of metaoblites."""
+    """Summarize results for a subset of metabolites."""
     subset = df.copy()
     n_metab = subset.metabolite.nunique()
 
@@ -80,37 +80,38 @@ def summarize_associations(df, name, joint_r_sq, sig_metab_assoc, micro_metab_as
         + scale_y_continuous(labels=percent_format())
         + coord_flip()
         + labs(y = "explained metabolite variance", x="")
-        + scale_fill_manual(values={"genetics_r_squared": "steelblue", "micro_r_squared": "mediumseagreen"})
+        + scale_fill_manual(values={"geno_r2": "steelblue", "micro_r2": "mediumseagreen"})
         + guides(fill = None)
         + theme_minimal() 
         + theme(figure_size=(3, 0.25*n_metab))
     )
-    pl.save(f"../figures/{name}_r2.pdf")
+    pl.save(f"figures/{name}_r2.pdf")
 
     subset_ids = joint_r_sq[joint_r_sq.metabolite.isin(subset.metabolite)].index
-    subset_snvs = sig_metab_assoc[sig_metab_assoc.Phenotype.isin(subset_ids)]
-    subset_snvs["variant"] = subset_snvs["rsid"] + " | chr" + subset_snvs["chromosome"] 
+    subset_snvs = sig_metab_assoc[sig_metab_assoc.metabolite.isin(subset.metabolite)]
+    subset_snvs["variant"] = subset_snvs["rsid"] + " | chr" + subset_snvs["CHR"] 
     subset_snvs.loc[subset_snvs.genes != "", "variant"] = (
         subset_snvs.loc[subset_snvs.genes != "", "variant"] 
         + " | " 
         + subset_snvs.loc[subset_snvs.genes != "", "genes"]
     )
-    subset_snvs["metabolite"] = subset_snvs["metabolite"].str.replace(" (1)", "", regex=False)
+    subset_snvs["name"] = subset.loc[subset_snvs.metabolite, "BIOCHEMICAL_NAME"].str.replace(" (1)", "", regex=False)
     subset_snvs["value"] = 1
     n_snvs = subset_snvs.variant.nunique()
 
-    subset_mat = subset_snvs.pivot_table(index="metabolite", columns="variant", values="value", fill_value=0)
+    subset_mat = subset_snvs.pivot_table(index="BIOCHEMICAL_NAME", columns="variant", values="value", fill_value=0)
     snv_map = sns.clustermap(subset_mat, cmap="Blues", figsize=(6 + 0.15*n_snvs, 3 + 0.15*subset_snvs.metabolite.nunique()), yticklabels=True, xticklabels=True, metric="jaccard")
     plt.setp(snv_map.ax_heatmap.get_xticklabels(), rotation=45, ha='right') 
-    plt.savefig(f"../figures/{name}_variants.pdf", pad_inches=0.1, bbox_inches="tight")
+    plt.savefig(f"figures/{name}_variants.pdf", pad_inches=0.1, bbox_inches="tight")
     
-    subset_mic = micro_metab_assoc[micro_metab_assoc.metabolite_id.isin(subset_ids)]
-    subset_mic["metabolite"] = subset_mic["metabolite"].str.replace(" (1)", "", regex=False)
-    n_microbes = subset_mic.Genus.nunique()
+    subset_mic = micro_metab_assoc[micro_metab_assoc.metabolite.isin(subset_ids)]
+    subset_mic["BIOCHEMICAL_NAME"] = subset.loc[subset_mic, "BIOCHEMICAL_NAME"].str.replace(" (1)", "", regex=False)
+    subset_mic["genus"] = subset_mic.taxon.str.split("|").str[1]
+    n_microbes = subset_mic.genus.nunique()
 
-    subset_mic_mat = subset_mic.pivot_table(columns="Genus", index="metabolite", values="r", fill_value=0)
+    subset_mic_mat = subset_mic.pivot_table(columns="genus", index="metabolite", values="r", fill_value=0)
     microbe_map = sns.clustermap(subset_mic_mat, cmap="seismic", figsize=(10 + 0.12*n_microbes, 3 + 0.2*subset_mic.metabolite.nunique()), yticklabels=True, xticklabels=True, center=0)
     plt.setp(microbe_map.ax_heatmap.get_xticklabels(), rotation=45, ha='right') 
-    plt.savefig(f"../figures/{name}_genera.pdf", pad_inches=0.1, bbox_inches="tight")
+    plt.savefig(f"figures/{name}_genera.pdf", pad_inches=0.1, bbox_inches="tight")
     
     return pl, snv_map, microbe_map
