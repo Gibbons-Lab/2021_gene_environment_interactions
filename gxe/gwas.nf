@@ -8,7 +8,8 @@ params.phenotype = "${baseDir}/data/train_phenotype.tsv"
 params.metabolites = "${baseDir}/data/met_indices.csv"
 params.output = "${baseDir}/data"
 params.grm_sparsity = 0.05
-params.gwas_pval = 5.29e-11
+params.gwas_pval_single = 5.0e-8f
+params.nmets = 930
 params.filter_pval = 1e-5
 params.max_threads = 12
 
@@ -212,6 +213,9 @@ workflow {
         .fromPath("${params.metabolites}")
         .splitCsv(header: true)
         .set{mets}
+
+    params.gwas_pval = params.gwas_pval_single / params.nmets
+    printf("Using p-value cutoff of %.5g for GWAS...\n", params.gwas_pval)
 
 
     bed.collect() | list_data_by_chromosomes
