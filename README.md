@@ -47,12 +47,12 @@ The analyses from the manunscript can be reproduced with the following steps. Th
 1. Assembly of the cohort | [notebook](cohort.ipynb)
 2. Confounder adjustment  | [notebook](residuals.ipynb)
 3. Microbiome-metabolite associations for the training cohort | [notebook](microbe_associations.ipynb)
-4. mGWAS for the training cohort | [workflow](gwas.nf)
+4. mGWAS for the training cohort | [workflow](gwas.nf)<br>
    Run this with `nextflow run -resume gwas.nf`
 5. Inspect results from the mGWAS | [notebook](gwas.ipynb)
-5. Fit models and obtain R2 for training cohort | [notebook](train_variances.ipynb)
-6. Obtain out-of-sample R2 for validation cohort | [notebook](validation_variances.ipynb)
-7. Detailed analysis of bile acid and sphingolipid R2 | [notebook](BAs_and_sphingolipids.ipynb)
+6. Fit models and obtain R2 for training cohort | [notebook](train_variances.ipynb)
+7. Obtain out-of-sample R2 for validation cohort | [notebook](validation_variances.ipynb)
+8. Detailed analysis of bile acid and sphingolipid R2 | [notebook](BAs_and_sphingolipids.ipynb)
 9. Fit genome-microbiome-metabolome interactions | [notebook](genome_microbiome_interactions.ipynb)
 10. Analyze the obtained interactions | [notebook](inspect_genome_microbiome_interactions.ipynb)
 
