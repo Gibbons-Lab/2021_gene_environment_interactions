@@ -42,6 +42,8 @@ The analyses from the manunscript can be reproduced with the following steps. Th
 
 > Qualified researchers can access the full Arivale deidentified dataset supporting the findings in this study for research purposes through signing a Data Use Agreement (DUA). Inquiries to access the data can be made at data-access{at}isbscience.org and will be responded to within 7 business days.
 
+Raw sequencing data for the 16S amplicon sequencing has been deposited to the SRA. A full list of run accessions can be found in the `data` directory [here](https://github.com/Gibbons-Lab/2021_gene_environment_interactions/blob/main/data/sra_manifest.csv).
+
 ### Analysis steps
 
 1. Assembly of the cohort | [notebook](cohort.ipynb)
